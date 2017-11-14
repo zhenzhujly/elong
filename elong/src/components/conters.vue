@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scope>
 #conters{
   width: 100%;
-  height: 1500px;
+  // height: 1500px;
   background: pink;
 }
 </style>
