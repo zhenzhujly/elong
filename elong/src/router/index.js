@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Admin from '@/views/admin'
 
+import Enter from '../views/enter'
+
 
 Vue.use(Router)
 
@@ -12,6 +14,11 @@ const router = new Router({
       path: '/',
       name: 'admin',
       component: Admin
+    },
+    {
+       path:'enter',
+       name:'enter',
+       component:Enter
     }
   ]
 })

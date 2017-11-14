@@ -69,33 +69,33 @@
        <div class="nav">
           <ul class="left">
             <li>
-              <a href="">首页</a>
+              <a href="" title="艺龙旅行网">首页</a>
             </li>
             <li>
-              <a href="">国内酒店</a>
+              <a href="" title="酒店预订">国内酒店</a>
             </li>
             <li class="banner">
-              <a href="">国际酒店</a>
+              <a href="" title="国际酒店">国际酒店</a>
               <span class="banner1"></span>
             </li>
             <li class="banner">
-              <a href="">机票</a>
+              <a href="" title="机票预订">机票</a>
               <span class="banner2"></span>
             </li>
             <li>
-              <a href="">火车票</a>
+              <a href="" title="火车票">火车票</a>
             </li>
             <li class="banner">
-              <a href="">汽车票</a>
+              <a href="" title="汽车票">汽车票</a>
               <span class="banner3"></span>
             </li>
             <li>
-              <a href="">旅游指南</a>
+              <a href="" title="旅游指南">旅游指南</a>
             </li>
           </ul>
           <div class="right">
              <div>
-               <a href="">登录</a>
+               <a href="#" @click='enter'>登录</a>
                |
                <a href="">注册</a>
              </div>
@@ -155,7 +155,11 @@ export default {
     }
   },
   methods:{
-
+      enter(){
+        this.$router.push({
+          name:'enter',
+        })
+      }
   },
   mounted(){
 
