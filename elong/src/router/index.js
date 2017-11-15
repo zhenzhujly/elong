@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Admin from '@/views/admin'
 
 import Enter from '../views/enter'
+import Register from '../views/register'
 
 
 Vue.use(Router)
@@ -19,6 +20,11 @@ const router = new Router({
        path:'enter',
        name:'enter',
        component:Enter
+    },
+    {
+       path:'register',
+       name:'register',
+       component:Register
     }
   ]
 })

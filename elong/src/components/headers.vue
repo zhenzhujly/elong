@@ -97,47 +97,45 @@
              <div>
                <a href="#" @click='enter'>登录</a>
                |
-               <a href="">注册</a>
+               <a href="#" @click='register'>注册</a>
              </div>
              <div class="box-log">
              	<div class="top">
              		<a href="">登录</a>
              	</div>
              	<div class="bot">
-             		<ul>
-             			<li>
-             				<b class="li-b1"></b>
-             				<a href="">酒店订单</a>
-             			</li>
-             			<li>
-             				<b class="li-b2"></b>
-             				<a href="">机票订单</a>
-             			</li>
-             			<li>
-             				<b class="li-b3"></b>
-             				<a href="">火车票订单</a>
-             			</li>
-             			<li>
-             				<b class="li-b4"></b>
-             				<a href="">现金账户</a>
-             			</li>
-             			<li>
-             				<b class="li-b5"></b>
-             				<a href="">汽车票订单</a>
-             			</li>
-             			<li>
-             				<b class="li-b6"></b>
-             				<a href="">酒店收藏</a>
-             			</li>
-             			<li>
-             				<b class="li-b7"></b>
-             				<a href="">我的点评</a>
-             			</li>
-             			<li>
-             				<b class="li-b8"></b>
-             				<a href="">个人设置</a>
-             			</li>
-             		</ul>
+                  <a href="#" class="a-li">
+                    <b class="li-b1"></b>
+                    <a href="">酒店订单</a>
+                  </a>		
+                  <a href="#" class="a-li">
+                    <b class="li-b2"></b>
+                    <a href="">机票订单</a>
+                  </a> 
+                  <a href="#" class="a-li">
+                    <b class="li-b3"></b>
+                    <a href="">火车票订单</a>
+                  </a> 
+                  <a href="#" class="a-li">
+                    <b class="li-b4"></b>
+                    <a href="">现金账户</a>
+                  </a> 
+                  <a href="#" class="a-li">
+                    <b class="li-b5"></b>
+                    <a href="">汽车票订单</a>
+                  </a> 
+                  <a href="#" class="a-li">
+                    <b class="li-b6"></b>
+                    <a href="">酒店收藏</a>
+                  </a> 
+                  <a href="#" class="a-li">
+                    <b class="li-b7"></b>
+                    <a href="">我的点评</a>
+                  </a> 
+                  <a href="#" class="a-li">
+                    <b class="li-b8"></b>
+                    <a href="">个人设置</a>
+                  </a> 
              	</div>
              </div>
           </div>
@@ -158,6 +156,11 @@ export default {
       enter(){
         this.$router.push({
           name:'enter',
+        })
+      },
+      register(){
+        this.$router.push({
+          name:'register',
         })
       }
   },
@@ -502,94 +505,89 @@ export default {
               	   	 width: 210px;
               	   	 height: 230px;
               	   	 // background: #f2f;
-              	   	   ul{
-              	   	   	 width: 100%;
-              	   	   	 height: 100%;
-              	   	   	 list-style: none;
-              	   	   	 display: flex;
-              	   	   	 flex-flow: row wrap;
-              	   	   	 margin: 5px auto;
-              	   	   	 padding: 0;
-              	   	   	   li{
-              	   	   	   	 width: 63px;
-              	   	   	   	 height: 65px;
-              	   	   	   	 // background: #d1b;
-              	   	   	   	 margin: 0 0 0 5px;
-              	   	   	   	   a{
-              	   	   	   	   	 font-size: 12px;
-              	   	   	   	   	 color:#c5c5c5;
-              	   	   	   	   }
-              	   	   	   	   b{
-              	   	   	   	   	 width: 49px;
-              	   	   	   	   	 height: 45px;
-              	   	   	   	   	 display: block;
-              	   	   	   	   	 margin: 2px 0 0 7px;
-              	   	   	   	   	 background: url(../assets/icon.png) no-repeat;
-              	   	   	   	   }
-              	   	   	   	   .li-b1{
-              	   	   	   	   		background-position: -152px -676px;
-              	   	   	   	   }
-              	   	   	   	   .li-b2{
-              	   	   	   	   		background-position: -213px -676px;
-              	   	   	   	   }
-              	   	   	   	   .li-b3{
-              	   	   	   	   		background-position: -150px -622px;
-              	   	   	   	   }
-              	   	   	   	   .li-b4{
-              	   	   	   	   		background-position: -213px -618px;
-              	   	   	   	   }
-              	   	   	   	   .li-b5{
-              	   	   	   	   		background-position: -277px -620px;
-              	   	   	   	   }
-              	   	   	   	   .li-b6{
-              	   	   	   	   		background-position: -151px -565px;
-              	   	   	   	   }
-              	   	   	   	   .li-b7{
-              	   	   	   	   		background-position: -279px -565px;
-              	   	   	   	   }
-              	   	   	   	   .li-b8{
-              	   	   	   	   		background-position: -279px -674px;
-              	   	   	   	   }
-              	   	   	   }
-              	   	   	   li:hover{
-              	   	   	   	  a{
-              	   	   	   	  	color:#37e;
-              	   	   	   	  }
-              	   	   	   	  .li-b1{
-              	   	   	   	   		background-position: 8px -676px;
-              	   	   	   	   }
-              	   	   	   	   .li-b2{
-              	   	   	   	   		background-position: -45px -676px;
-              	   	   	   	   }
-              	   	   	   	   .li-b3{
-              	   	   	   	   		background-position: 10px -622px;
-              	   	   	   	   }
-              	   	   	   	   .li-b4{
-              	   	   	   	   		background-position: -46px -618px;
-              	   	   	   	   }
-              	   	   	   	   .li-b5{
-              	   	   	   	   		background-position: -100px -620px;
-              	   	   	   	   }
-              	   	   	   	   .li-b6{
-              	   	   	   	   		background-position: 7px -565px;
-              	   	   	   	   }
-              	   	   	   	   .li-b7{
-              	   	   	   	   		background-position: -99px -565px;
-              	   	   	   	   }
-              	   	   	   	   .li-b8{
-              	   	   	   	   		background-position: -99px -674px;
-              	   	   	   	   }
-              	   	   	   }
-              	   	   }
-              	   }
-              }
-          }
-          .right:hover{
-          	.box-log{
-          		display: block;
-          	}
+                     display: flex;
+                     flex-flow: row wrap;
+                     margin: 5px auto;
+                     padding: 0;
+          	   	   	 .a-li{
+          	   	   	   	 width: 63px;
+          	   	   	   	 height: 65px;
+          	   	   	   	 // background: #d1b;
+          	   	   	   	 margin: 0 0 0 5px;
+          	   	   	   	   a{
+          	   	   	   	   	 font-size: 12px;
+          	   	   	   	   	 color:#c5c5c5;
+          	   	   	   	   }
+          	   	   	   	   b{
+          	   	   	   	   	 width: 49px;
+          	   	   	   	   	 height: 45px;
+          	   	   	   	   	 display: block;
+          	   	   	   	   	 margin: 2px 0 0 7px;
+          	   	   	   	   	 background: url(../assets/icon.png) no-repeat;
+          	   	   	   	   }
+          	   	   	   	   .li-b1{
+          	   	   	   	   		background-position: -152px -676px;
+          	   	   	   	   }
+          	   	   	   	   .li-b2{
+          	   	   	   	   		background-position: -213px -676px;
+          	   	   	   	   }
+          	   	   	   	   .li-b3{
+          	   	   	   	   		background-position: -150px -622px;
+          	   	   	   	   }
+          	   	   	   	   .li-b4{
+          	   	   	   	   		background-position: -213px -618px;
+          	   	   	   	   }
+          	   	   	   	   .li-b5{
+          	   	   	   	   		background-position: -277px -620px;
+          	   	   	   	   }
+          	   	   	   	   .li-b6{
+          	   	   	   	   		background-position: -151px -565px;
+          	   	   	   	   }
+          	   	   	   	   .li-b7{
+          	   	   	   	   		background-position: -279px -565px;
+          	   	   	   	   }
+          	   	   	   	   .li-b8{
+          	   	   	   	   		background-position: -279px -674px;
+          	   	   	   	   }
+          	   	   	   }
+          	   	   	   .a-li:hover{
+          	   	   	   	  a{
+          	   	   	   	  	color:#37e;
+          	   	   	   	  }
+          	   	   	   	  .li-b1{
+          	   	   	   	   		background-position: 8px -676px;
+          	   	   	   	   }
+          	   	   	   	   .li-b2{
+          	   	   	   	   		background-position: -45px -676px;
+          	   	   	   	   }
+          	   	   	   	   .li-b3{
+          	   	   	   	   		background-position: 10px -622px;
+          	   	   	   	   }
+          	   	   	   	   .li-b4{
+          	   	   	   	   		background-position: -46px -618px;
+          	   	   	   	   }
+          	   	   	   	   .li-b5{
+          	   	   	   	   		background-position: -100px -620px;
+          	   	   	   	   }
+          	   	   	   	   .li-b6{
+          	   	   	   	   		background-position: 7px -565px;
+          	   	   	   	   }
+          	   	   	   	   .li-b7{
+          	   	   	   	   		background-position: -99px -565px;
+          	   	   	   	   }
+          	   	   	   	   .li-b8{
+          	   	   	   	   		background-position: -99px -674px;
+          	   	   	   	   }
+          	   	   	   }
+          	   }
           }
       }
+      .right:hover{
+      	.box-log{
+      		display: block;
+      	}
+      }
+    }
    }
 }
 </style>

@@ -8,6 +8,7 @@
     </section>
     <footer>
         <foots></foots> 
+        <footes></footes>
     </footer>
   </div>
 </template>
@@ -16,12 +17,14 @@
 import headers from '../components/headers'
 import conters from '../components/conters'
 import foots from '../components/foots'
+import footes from '../components/footes'
 export default {
   name: 'admin',
   components:{
     headers,
     conters,
-    foots
+    foots,
+    footes
   },
   data () {
     return {
