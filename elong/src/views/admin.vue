@@ -10,7 +10,7 @@
         <foots></foots> 
         <footes></footes>
     </footer>
-  </div>
+ </div>
 </template>
 
 <script>
@@ -32,7 +32,7 @@ export default {
     }
   },
   methods:{
-
+  
   },
   mounted(){
 
@@ -41,9 +41,10 @@ export default {
 </script>
 <style lang="scss" scope>
 #admin{
-  width: 1349px;
+  width: 1339px;
   height: 2653px;
-  background: red;
+  // background: red;
   margin: 0 auto;
 }
+
 </style>

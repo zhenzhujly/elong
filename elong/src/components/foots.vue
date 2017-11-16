@@ -76,7 +76,7 @@ export default {
   width: 100%;
   height: 240px;
   background: #fff;
-  border-top:1px solid gray;
+  border-top:1px solid #ccc;
 }
 .info{
   width:1000px;
