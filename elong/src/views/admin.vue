@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scope>
 #admin{
   width: 1339px;
-  height: 2653px;
+  height: 2595px;
   // background: red;
   margin: 0 auto;
 }

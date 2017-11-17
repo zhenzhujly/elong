@@ -4,6 +4,7 @@ import Admin from '@/views/admin'
 
 import Enter from '../views/enter'
 import Register from '../views/register'
+import Huangshan from '../views/huangshan'
 
 // import one from '../eids/one'
 // import two from '../eids/two'
@@ -32,6 +33,11 @@ const router = new Router({
        path:'register',
        name:'register',
        component:Register
+    },
+    {
+       path:'huangshan',
+       name:'huangshan',
+       component:Huangshan
     },
     // {
     //   path: '/eids',

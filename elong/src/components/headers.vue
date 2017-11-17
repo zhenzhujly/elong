@@ -101,7 +101,7 @@
              </div>
              <div class="box-log">
              	<div class="top">
-             		<a href="">登录</a>
+             		<a href="#" @click='enter'>登录</a>
              	</div>
              	<div class="bot">
                   <a href="#" class="a-li">

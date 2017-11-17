@@ -78,8 +78,8 @@
           <div class="rig">更多>></div>
         </h3>
         <ul>
-          <li>
-            <a href="">
+          <li >
+            <a href="javascript:;" @click='huangshan'>
               <div class="img"></div>
               <div class="name">黄山</div>
             </a>
@@ -479,11 +479,15 @@ export default {
   name: 'conters',
   data () {
     return {
-    
+     
     }
   },
   methods:{
-
+    huangshan(){
+        this.$router.push({
+          name:'huangshan',
+        })
+      },
   },
   mounted(){
 
