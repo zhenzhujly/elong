@@ -405,28 +405,6 @@
             </li>
             <div class="right_div"></div>
           </ul>  
-     <!--      <ol>
-            <li>
-              <a href="">
-                <img src="../assets/3.jpg">
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="../assets/4.jpg">
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="../assets/5.jpg">
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="../assets/6.jpg">
-              </a>
-            </li>
-          </ol>  --> 
         </div>
         <div class="right">
           <div>
@@ -1062,12 +1040,12 @@ export default {
                       display: block;
                     }
                   }
-                  // li:hover .one{
-                  //   background: #fff;
-                  //   a{
-                  //     color:#000;
-                  //   }
-                  // }
+                  li:hover + .one{
+                    background: #fff;
+                    a{
+                      color:#000;
+                    }
+                  }
                   li:nth-of-type(2):hover~.right_div{
                       background:url(../assets/4.jpg);
                   }
