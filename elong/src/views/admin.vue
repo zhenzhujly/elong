@@ -41,7 +41,7 @@ export default {
 </script>
 <style lang="scss" scope>
 #admin{
-  width: 1339px;
+  width: 1266px;
   height: 2595px;
   // background: red;
   margin: 0 auto;

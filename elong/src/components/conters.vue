@@ -1,6 +1,211 @@
 <template>
   <div id="conters"> 
-    <div class="banner_n"></div>
+   <div class="banner_n">
+        <swiper :options="swiperOption" ref="mySwiper" class="tabPlay">
+   <!-- slides -->
+         <swiper-slide class="slideBox">
+            <img src="../assets/top-1.jpg">
+        </swiper-slide>
+         <!-- <swiper-slide class="slideBox">
+            <img src="../assets/top-2.jpg">
+        </swiper-slide> -->
+         <swiper-slide class="slideBox">
+            <img src="../assets/top-3.jpg">
+        </swiper-slide>
+         <swiper-slide class="slideBox">
+            <img src="../assets/top-4.jpg">
+        </swiper-slide>
+         <swiper-slide class="slideBox">
+            <img src="../assets/top-5.jpg">
+        </swiper-slide>
+         <swiper-slide class="slideBox">
+            <img src="../assets/top-6.jpg">
+        </swiper-slide>
+         <!-- Optional controls -->
+         <!-- <div class="swiper-pagination dot"  slot="pagination"></div>
+         <div class="swiper-button-prev dot" slot="button-prev"></div>
+         <div class="swiper-button-next dot" slot="button-next"></div>
+         <div class="swiper-scrollbar dot"   slot="scrollbar"></div> -->
+       </swiper>
+       <div class="cade">
+         <ul class="left">
+           <li class="one lis">
+             <i class="i1"></i>
+             <span>酒店</span>
+           </li>
+           <li class="lis">
+             <i class="i2"></i>
+             <span>机票</span>
+           </li>
+           <li class="lis">
+             <i class="i3"></i>
+             <span>火车票</span>
+           </li>
+           <li class="lis">
+             <i class="i4"></i>
+             <span>手机版</span>
+           </li>
+         </ul>
+         <div class="rights rig1">
+           <div class="hotel">
+             <div class="clear">
+               <span>
+                 <b>国内酒店</b>
+                 <i></i>
+               </span>
+               <span>
+                 <b>国际酒店</b>
+               </span>
+             </div>
+             <div class="wrap">
+               <dl>
+                 <dt>目的地</dt>
+                 <dd>
+                   <input type="text" value="黄山市">
+                 </dd>
+               </dl>
+               <dl class="err">
+                 <dt>入住</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-22">
+                     <i></i>
+                   </label>
+                 </dd>
+                 <dt>退房</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-23">
+                     <i></i>
+                   </label>
+                 </dd>
+               </dl>
+               <dl>
+                 <dt>关键词</dt>
+                 <dd>
+                   <input type="text" placeholder="如位置\酒店\品牌">
+                 </dd>
+               </dl>
+               <div class="sub">
+                 <span>
+                   <i class="si1"></i>
+                   搜索
+                 </span>
+                 <span>
+                   <i class="si2"></i>
+                   地图搜索
+                 </span>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="rights rig2">
+           <div class="hotel">
+             <div class="clear">
+               <span>
+                 <b>国内机票</b>
+                 <i></i>
+               </span>
+               <span>
+                 <b>国际机票</b>
+               </span>
+             </div>
+             <div class="wrap">
+               <dl>
+                 <dt>航程类型</dt>
+                 <dd>
+                   <label>
+                     <input type="radio">
+                     <span>单程</span>
+                   </label>
+                   <label>
+                     <input type="radio">
+                     <span>往返</span>
+                   </label>
+                 </dd>
+               </dl>
+               <dl class="tick">
+                <dt>往返城市</dt>
+                 <dd>
+                   <input type="text" value="北京">
+                 </dd>
+                 <dt>
+                   <span class="wf"></span>
+                 </dt>
+                 <dd>
+                   <input type="text" value="上海">
+                 </dd>
+               </dl>
+               <dl class="err">
+                 <dt>去程</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-22">
+                     <span>明天</span>
+                     <i></i>
+                   </label>
+                 </dd>
+                 <dt>返程</dt>
+                 <dd>
+                   <label>
+                     <input type="text" placeholder="yyy-mm-dd">
+                     <i></i>
+                   </label>
+                 </dd>
+               </dl>
+               <div class="sub">
+                 <span>
+                   <i class="si1"></i>
+                   搜索
+                 </span>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="rights rig2 rig3">
+           <div class="hotel">
+             <div class="wrap">
+               <dl class="tick">
+                <dt>往返城市</dt>
+                 <dd>
+                   <input type="text" value="北京">
+                 </dd>
+                 <dt>
+                   <span class="wf"></span>
+                 </dt>
+                 <dd>
+                   <input type="text" value="上海">
+                 </dd>
+               </dl>
+               <dl class="err">
+                 <dt>出发日期</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-22">
+                     <span>明天</span>
+                     <i></i>
+                   </label>
+                 </dd>
+                 <span class="spn">
+                   <i></i>
+                   只看动车/高铁
+                 </span>
+               </dl>
+               <div class="sub">
+                 <span>
+                   <i class="si1"></i>
+                   搜索
+                 </span>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="rights rig4">
+           <div class="hotel">
+           </div>
+         </div>
+       </div>
+    </div>
     <div class="fix">
       <div class="fix-d">
         <i></i>
@@ -453,11 +658,29 @@
 </template>
 
 <script>
+import { swiper,swiperSlide } from 'vue-awesome-swiper'
 export default {
   name: 'conters',
+  components:{
+    swiper,
+    swiperSlide
+  },
   data () {
     return {
-     
+      swiperOption: {
+            notNextTick:true,
+            direction :'horizontal', 
+            autoplay:1500, 
+            effect:"fade",
+            grabCursor :true,
+            setWrapperSize :true,
+            pagination: '.swiper-pagination',    
+            paginationClickable :true,
+            prevButton:'.swiper-button-prev',
+            nextButton:'.swiper-button-next',
+            mousewheelControl : true,
+            observeParents:true,
+      }
     }
   },
   methods:{
@@ -468,7 +691,32 @@ export default {
       },
   },
   mounted(){
-
+     var lis=document.getElementsByClassName('lis');
+     var rights=document.getElementsByClassName('rights');
+     console.log(rights)
+     var index=0;
+      for(let i=0;i<lis.length;i++){
+          lis[i].index=i;
+          lis[i].onclick=function(){
+              for(let j=0;j<lis.length;j++){
+                  rights[j].style.display='none';
+                  lis[j].style.color='#555';
+                  lis[j].style.background='#f3f3f3';
+                  lis[j].style.border='1px solid #e1e1e1';
+                  lis[j].style.borderLeft='none';
+              }
+              rights[this.index].style.display='block';
+              lis[this.index].style.border='none';
+              lis[this.index].style.color="#37D";
+              lis[this.index].style.background="#fff";
+          }
+          
+      }
+  },
+  computed:{
+     swiper() {
+       return this.$refs.mySwiper.swiper
+     }
   }
 }
 </script>
@@ -478,9 +726,357 @@ export default {
   height: 2190px;
   // background: pink;
    .banner_n{
-     width: 100%;
+     width: 1349px;
      height: 380px;
      background: #a2e4d8;
+     overflow: hidden;
+     margin: 0 0 0 -42px;
+     position: relative;
+      .tabPlay{
+        width: 1349px;
+        height: 100%;
+         .slideBox{
+            width: 1226px;
+            height: 460px;
+            display: block;
+            float: left;
+             img{
+               width: 1349px;
+               height: 100%;
+               // background-size:cover;
+             }
+          }
+      }
+      .cade{
+        width: 600px;
+        height: 300px;
+        background: #fff;
+        position: absolute;
+        top: 50px;
+        left:50px;
+        display: flex;
+        justify-content: space-between;
+         .left{
+           width: 100px;
+           height: 100%;
+           // background: #E066FF;
+           margin: 0;
+           padding: 0;
+           list-style: none;
+           display: flex;
+           flex-flow: column;
+           align-content: flex-start;
+             li{
+               width: 98px;
+               height: 59px;
+               background: #f3f3f3;
+               border:1px solid #e1e1e1;
+               border-left:none;
+               border-bottom:none;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-size: 14px;
+               color:#555;
+                i{
+                  background: url(../assets/index.png) no-repeat;
+                  width: 15px;
+                  height: 15px;
+                  display: block;
+                }
+                .i1{
+                  background-position: -557px -345px;
+                }
+                .i2{
+                  background-position: -582px -367px;
+                }
+                .i3{
+                  background-position: -584px -386px;
+                }
+                .i4{
+                  background-position: -581px -317px;
+                  height: 18px;
+                }
+             }
+             li:nth-of-type(1){
+               color:#37D;
+               background:#fff;
+               border:none;
+               // border-left:1px solid transparent;
+             }
+         }
+         .rights{
+           width: 500px;
+           height: 100%;
+           background: #fff;
+           display: flex;
+           justify-content: center;
+           display: none;
+            .hotel{
+              width: 440px;
+              height: 257px;
+              padding: 0 0 0 20px;
+              // background:#a85;
+               .clear{
+                width: 440px;
+                height: 32px;
+                // background:#B23AEE;
+                border-bottom: 2px solid #aaa;
+                display: flex;
+                flex-flow: row;
+                margin: 10px 0 0 0;
+                  span{
+                    width: 90px;
+                    height: 32px;
+                    // background:#EEA2AD;
+                    display: block;
+                    border-bottom: 2px solid #37D;
+                    text-align: center;
+                    line-height: 30px;
+                    font-size: 14px;
+                    color:#37D;
+                      i{
+                        width: 7px;
+                        height: 4px;
+                        background:url(../assets/index.png) -475px 0 no-repeat;
+                        display: block;
+                        margin: -2px auto 0 auto;
+                      }
+                  }
+                  span:last-of-type{
+                    border:none;
+                    color:#000;
+                  }
+              }
+               .wrap{
+                width: 440px;
+                height: 136px;
+                // background:#AEEEEE;
+                margin: 15px 0 0 0;
+                  dl{
+                    width: 100%;
+                    height: 32px;
+                    // background: #EE4000;
+                    display: flex;
+                    flex-flow: row;
+                      dt{
+                        width: 70px;
+                        height: 32px;
+                        // background: blue;
+                        margin: 0;
+                        text-align: center;
+                        line-height: 32px;
+                        color:#555;
+                        font-size: 14px;
+                      }
+                      dd{
+                        width: 370px;
+                        height: 32px;
+                        background: #fff;
+                        margin: 0;
+                        border:1px solid #ddd;
+                        border-radius: 4px;
+                         input{
+                           width: 90%;
+                           height: 90%;
+                           border:none;
+                           border-radius: 4px;
+                           margin: 0 0 0 10px;
+                           outline: none;
+                         }
+                      }
+                  }
+                  .err{
+                    dd{
+                      width: 160px;
+                      height: 32px;
+                       label{
+                        width: 152px;
+                        height: 32px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                         input{
+                           width: 90%;
+                           height: 90%;
+                         }
+                         i{
+                          width: 20px;
+                          height: 16px;
+                          background: url(../assets/icon.png) -480px -763px no-repeat;
+                          display: block;
+                          margin: 0 5px 0 0;
+                         }
+                       }
+                    }
+                  }
+                  .sub{
+                    width: 270px;
+                    height: 32px;
+                    // background: orange;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-around;
+                     span{
+                       display: block;
+                       height: 32px;
+                       // background: #d7e;
+                       display: flex;
+                       flex-flow: row;
+                       align-items: center;
+                       justify-content: center;
+                        i{
+                          width: 18px;
+                          height: 18px;
+                          background: url(../assets/icon.png) no-repeat;
+                          display: block;
+                        }
+                        .si1{
+                          background-position: -432px -763px;
+                        }
+                        .si2{
+                          background-position: -455px -764px;
+                        }
+                     }
+                     span:nth-of-type(1){
+                      background: #f55;
+                      color:#fff;
+                      width: 159px;
+                      border-radius: 5px;
+                       i{
+                        margin: 0 5px 0 0;
+                       }
+                     }
+                     span:nth-of-type(2){
+                       border-radius: 5px;
+                       border:1px solid gray;
+                       height: 30px;
+                     }
+                  }
+              }
+            }
+         }
+         .rig1{
+           display: block;
+         }
+         .rig2{
+           .hotel{
+             .wrap{
+               dl:nth-of-type(1){
+                dd{
+                  width: 142px;
+                  height: 30px;
+                  display: flex;
+                  flex-flow: row;
+                  border:none;
+                    label{
+                      width: 70px;
+                      height: 30px;
+                      display: flex;
+                      justify-content: space-around;
+                      align-items: center;
+                       input{
+                         width: 13px;
+                         height: 13px;
+                         border:none;
+                       }
+                    }
+                }
+               }
+               .tick{
+                dt:nth-of-type(1){
+                  width: 145px;
+                  height: 30px;
+                }
+                dt:nth-of-type(2){
+                  width: 80px;
+                  height: 30px;
+                  .wf{
+                      background: url(../assets/icon.png) -260px -750px no-repeat;
+                      width: 30px;
+                      height: 25px;
+                      display: block;
+                   }
+                dd{
+                  width: 160px;
+                  height: 30px;
+                }
+               }
+             }
+               .err{
+                dd{
+                  label:nth-of-type(1){
+                    span{
+                      width: 38px;
+                      height: 32px;
+                      font-size: 12px;
+                      display: block;
+                      line-height: 32px;
+                    }
+                    i{
+                      width: 27px;
+                    }
+                  }
+                }
+               }
+               .sub{
+                width: 315px;
+                justify-content: flex-start;
+              }
+             }
+           }
+         }
+         .rig3{
+           .hotel{
+            margin: 20px auto;
+             .wrap{
+               .tick{
+                display: flex;
+                justify-content: flex-start;
+                 dt:nth-of-type(1){
+                   width: 70px;
+                 }
+                 dd:nth-of-type(1){
+                   border:1px solid #ddd;
+                 }
+                 dt:nth-of-type(2){
+                   width: 40px;
+                 }
+                 dd:nth-of-type(2){
+                   border:1px solid #ddd;
+                 }
+               }
+               .err{
+                 width: 85%;
+                 .spn{
+                   width: 100px;
+                   height: 32px;
+                   font-size: 13px;
+                   display: flex;
+                   flex-flow: row;
+                   align-items: center;
+                   margin: 0 0 0 20px;
+                   i{
+                     width: 12px;
+                     height: 12px;
+                     background: url(../assets/index.png) -536px -32px no-repeat;
+                     display:block;
+                     margin: 0 5px 0 0;
+                   }
+                 }
+                 
+               }
+             }
+           }
+         }
+         .rig4{
+           .hotel{
+            width: 455px;
+            height: 300px;
+            background: url(../assets/bg.png) no-repeat center bottom;
+           }
+         }
+      }
    }
    .fix{
      width: 1200px;

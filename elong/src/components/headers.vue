@@ -280,6 +280,7 @@ export default {
            	 border:1px solid #999;
            	 position: absolute;
            	 top: 50px;
+             z-index: 3;
            	 background: url(../assets/icon.png) -398px -180px no-repeat;
            	   i{
            	   	 background: url(../assets/icon.png) -213px -763px no-repeat;
@@ -311,6 +312,7 @@ export default {
            	 position: absolute;
            	 background: url(../assets/icon.png) -465px -53px no-repeat;
            	 top: 45px;
+             z-index: 3;
            }
          }
          span:nth-of-type(2):hover .only-sj{
@@ -390,9 +392,10 @@ export default {
       }
    }
    .nav_box{
-     width: 100%;
+     width: 1349px;
      height: 40px;
      background: #2064c8;
+     margin: 0 0 0 -42px;
       .nav{
         width: 1200px;
         height: 40px;
@@ -486,6 +489,7 @@ export default {
               	 position: absolute;
               	 top: 40px;
               	 right:0px;
+                 z-index: 3;
               	 display: none;
               	   .top{
               	   	 width: 180px;

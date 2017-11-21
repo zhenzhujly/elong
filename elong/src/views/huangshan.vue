@@ -40,7 +40,7 @@
            <div>
              <label>
                <span>关键字</span>
-               <input type="input" value="如位置\酒店名\品牌">
+               <input type="input" placeholder="如位置\酒店名\品牌">
              </label>
            </div>
            <div>
@@ -315,7 +315,78 @@
                     <i></i>
                  </li>
                </ul>
-               <div class="sort-div"></div>
+               <div class="sort-div">
+                 <div>返后价</div>
+                 <div>返前价</div>
+               </div>
+             </div>
+             <div class="contain">
+               <div class="c-item">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-1.jpg"></a>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山滨江时尚主题酒店(屯溪老街店)">
+                         <span>1</span>
+                         滨江时尚酒店(屯溪老街店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p>
+                       <a href="#">[黄山市区(屯溪)]</a>     
+                       屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
+                     </p>
+                     <div>
+                       <span></span>
+                       <span></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span>
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>99%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1708</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:30分钟前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>168</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
              </div>
            </div>
          </div>
@@ -416,7 +487,7 @@ export default {
               height: 32px;
               display: block;
               color:#999;
-              font-size: 16px;
+              font-size: 15px;
               position: relative;
                 input{
                   color:#555;
@@ -780,16 +851,16 @@ export default {
              .sort{
               width: 828px;
               height: 41px;
-              background: #8F8F8F;
+              background: #E0EEE0;
               border:1px solid #CDE;
-              border-top:2px solid #b5cbe6;
+              border-top:3px solid #b5cbe6;
               display: flex;
               flex-flow: row;
               justify-content: space-between;
                 .sort-li{
                   width: 284px;
                   height: 40px;
-                  background: #a83;
+                  // background: #a83;
                   margin: 0;
                   padding: 0;
                   list-style: none;
@@ -799,7 +870,7 @@ export default {
                    li{
                     width: 70px;
                     height: 40px;
-                    background: #d7e;
+                    // background: #d7e;
                     margin: 0 3px 0 0px;
                     display: flex;
                     align-items: center;
@@ -809,11 +880,11 @@ export default {
                        background: url(../assets/icon-1.png) no-repeat;
                        width: 7px;
                        height: 9px;
-                       margin: 0 0 0 5px;
+                       // margin: 0 0 0 5px;
                      }
                    }
                    li:nth-of-type(1){
-                    height: 38px;
+                    height: 40px;
                     border-top:2px solid #49f;
                     background: #49F;
                     color:#fff;
@@ -826,14 +897,14 @@ export default {
                     }
                    }
                    li:nth-of-type(3){
-                    color:#EAEAEA;
+                    color:#bbb;
                     i{
                       background-position: -257px -123px;
                     }
                    }
                    li:nth-of-type(4){
                     i{
-                      background-position: -257px -123px;
+                      background-position: -243px -123px;
                     }
                    }
                    .err:hover{
@@ -843,8 +914,347 @@ export default {
                 .sort-div{
                   width: 371px;
                   height: 40px;
-                  background: #fde;
+                  // background: #fde;
+                  display: flex;
+                  flex-flow: row;
+                  align-items: center;
+                  justify-content: flex-end;
+                   div{
+                     width: 50px;
+                     height: 20px;
+                     font-size: 13px;
+                     // margin: 0 0 0 3px;
+                     text-align: center;
+                     line-height: 20px;
+                   }
+                   div:nth-of-type(1){
+                    border:1px solid #49F;
+                    border-radius:10px 0 0 10px;
+                    background: #49F;
+                    color:#fff;
+                   }
+                   div:nth-of-type(2){
+                    border-radius: 0 10px 10px 0;
+                    background: #fff;
+                    color:#49F;
+                    border:1px solid #CDE;
+                    color:#555;
+                   }
+                   div:nth-of-type(2):hover{
+                    border:1px solid #49F;
+                    color:#49F;
+                   }
                 }
+             }
+             .contain{
+               width: 830px;
+               height: 3386px;
+               background: #d8a34c;
+               margin: 20px 0 0 0;
+                 .c-item{
+                   width: 100%;
+                   height: 140px;
+                   background: #fff;
+                   display: flex;
+                   flex-flow: row;
+                   justify-content: space-between;
+                   align-items: center;
+                   padding: 0 0 15px 0;
+                   border-bottom:1px solid #ddd;
+                    .pic{
+                      width: 180px;
+                      height: 130px;
+                      background: #a7e;
+                    }
+                    .text{
+                      width: 635px;
+                      height: 130px;
+                      // background: #e2b;
+                      display: flex;
+                      flex-flow: row;
+                      align-items: center;
+                       .base{
+                         width: 345px;
+                         height: 108px;
+                         // background: #7924a2;
+                         p{
+                          margin: 5px 0 0 0;
+                          padding: 0;
+                         }
+                          p:nth-of-type(1){
+                            width: 320px;
+                            height: 25px;
+                            // background: yellow;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                             a{
+                               text-decoration: none;
+                               color:#49F;
+                               display: flex;
+                               flex-flow: row;
+                               // font-size: 16px;
+                                 span{
+                                   width: 20px;
+                                   height: 25px;
+                                   background: url(../assets/com.png) -55px -41px no-repeat;
+                                   display: block;
+                                   color:#fff;
+                                   text-align: center;
+                                   line-height: 25px;
+                                 }
+                             }
+                             a:hover{
+                               color:#f55;
+                                span{
+                                  background: url(../assets/com.png) -80px -41px no-repeat;
+                                }
+                             }
+                             i{
+                              width: 16px;
+                              height: 16px;
+                              background: url(../assets/com-2.png) -716px -147px no-repeat;
+                              display: block;
+                             }
+                             b{
+                              width: 60px;
+                              height: 10px;
+                              background: url(../assets/com-2.png) -398px -120px no-repeat;
+                              display: block;
+                             }
+                          }
+                          p:nth-of-type(2){
+                            width: 345px;
+                            height: 20px;
+                            // background: yellow;
+                            font-size: 10px;
+                            line-height: 20px;
+                             a{
+                              text-decoration: none;
+                              color:#49F;
+                             }
+                          }
+                          p:nth-of-type(2):hover{
+                            a{
+                              color:#f55;
+                            }
+                          }
+                          div{
+                            width: 45px;
+                            height: 20px;
+                            // background: yellow;
+                            display: flex;
+                            flex-flow: row;
+                            align-items: center;
+                            justify-content: space-around;
+                             span{
+                               width: 16px;
+                               height: 17px;
+                               background: url(../assets/icon-1.png) no-repeat;
+                               display: block;
+                             }
+                             span:nth-of-type(1){
+                              background-position: 0 -4px;
+                             }
+                             span:nth-of-type(2){
+                              background-position: -20px -4px;
+                             }
+                          }
+                          p:last-of-type{
+                            width: 345px;
+                            height: 20px;
+                            // background: yellow;
+                            display: flex;
+                            flex-flow: row;
+                            align-items: center;
+                             span{
+                               width: 55px;
+                               height: 18px;
+                               // background: #aeb;
+                               border:1px solid #CDE;
+                               display: flex;
+                               flex-flow: row;
+                               justify-content: center;
+                               align-items: center;
+                               font-size: 13px;
+                                i{
+                                  width: 9px;
+                                  height: 12px;
+                                  background: url(../assets/icon-1.png) no-repeat;
+                                  display: block;
+                                  margin: 0 3px 0 0;
+                                }
+                             }
+                             span:nth-of-type(1){
+                               border-radius: 10px 0 0 10px;
+                                i{
+                                  background-position: -249px -6px;
+                                }
+                             }
+                             span:nth-of-type(1):hover{
+                              border:1px solid #49F;
+                             }
+                             span:nth-of-type(2){
+                               border-radius:0 10px 10px 0;
+                               color:#ccc;
+                                i{
+                                  background-position: -743px -6px;
+                                }
+                             }
+                          }
+                       }
+                       .comt{
+                         width: 132px;
+                         height: 100px;
+                         // background: #fa2;
+                         border-left: 1px solid #eee;
+                         border-right: 1px solid #eee;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-flow: column;
+                         // align-content: flex-end;
+                          a{
+                            width: 110px;
+                            height: 45px;
+                            // background:#ebc;
+                            text-decoration: none;
+                              span:nth-of-type(1){
+                                width: 100px;
+                                height: 29px;
+                                background:url(../assets/fixed.png) -257px -48px no-repeat;
+                                display: block;
+                                text-align: center;
+                                 i:nth-of-type(1){
+                                    color:#37e;
+                                    font-size: 20px;
+                                 }
+                                 i:nth-of-type(2){
+                                    color:#555;
+                                    font: 13px/26px Microsoft YaHei;
+                                 }
+                              }
+                              span:nth-of-type(2){
+                                width: 106px;
+                                height: 20px;
+                                font-size: 13px;
+                                color:#555;
+                                 b{
+                                  color:#37E;
+                                 }
+                              }
+                          }
+                          a:hover{
+                            span:nth-of-type(1){
+                              i:nth-of-type(1){
+                                color:#f55;
+                              }
+                            }
+                            span:nth-of-type(2){
+                              b{
+                                color:#f55;
+                              }
+                            }
+                          }
+                          p{
+                            color:#21a651;
+                            font-size: 13px;
+                          }
+                       }
+                       .pri{
+                         width: 155px;
+                         height: 130px;
+                         // background: #aa2;
+                         display: flex;
+                         flex-flow: column;
+                         align-items: center;
+                           a{
+                            width: 155px;
+                            height: 34px;
+                            background-position: #d2a;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 10px 0 0 0;
+                             span:nth-of-type(1){
+                              color:#555;
+                              font-size: 13px;
+                             }
+                             span:nth-of-type(2){
+                              color:#f55;
+                              font-size: 28px;
+                             }
+                             span:nth-of-type(3){
+                              color:#f55;
+                              font-size: 15px;
+                             }
+                           }
+                           div:nth-of-type(1){
+                             width: 155px;
+                             height: 30px;
+                             font-size: 14px;
+                             margin: 10px 0 25px 0;
+                              a{
+                                background:#fff;
+                                color:#37e;
+                                border:1px solid #e3f0ff;
+                                text-decoration: none;
+                                width: 122px;
+                                height: 30px;
+                                margin: 0 auto;
+                              }
+                           }
+                           .lasbox{
+                            width: 122px;
+                            height: 21px;
+                            background:#e3f0ff;
+                            border-radius: 10px;
+                            display: none;
+                              span{
+                                width: 122px;
+                                color:#555;
+                                height: 18px;
+                                // background: #d57;
+                                display: flex;
+                                justify-content: center;
+                                font-size: 12px;
+                                align-items: center;
+                                 i{
+                                  width: 23px;
+                                  height: 20px;
+                                  background:url(../assets/icon-1.png) -678px -302px no-repeat;
+                                  display: block;
+                                 }
+                                 b{
+                                  color:#f55;
+                                 }
+                              }
+                              span:hover{
+                                i:hover{
+                                  background:url(../assets/icon-1.png) -678px -324px no-repeat;
+                                 }
+                              }
+                           }
+                       }
+                    }
+                 }
+                 .c-item:hover{
+                   background: #F8F8FF;
+                     .text{
+                       .pri{
+                         div:nth-of-type(1){
+                           a{
+                             background: #49F;
+                             border:1px solid #49F;
+                             color:#fff;
+                           }
+                         }
+                         .lasbox{
+                          display: block;
+                         }
+                       }
+                     }
+                 }
              }
           }
       }
