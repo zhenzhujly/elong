@@ -324,6 +324,7 @@
                <div class="c-item">
                  <div class="pic">
                    <a href="#"><img src="../assets/hs-1.jpg"></a>
+                   <div><img src="../assets/hs1.jpg"></div>
                  </div>
                  <div class="text">
                    <div class="base">
@@ -340,15 +341,15 @@
                        屯溪滨江中路1号(距老街步行3分钟) 新开业酒店
                      </p>
                      <div>
-                       <span></span>
-                       <span></span>
+                       <span title="WiFi上网"></span>
+                       <span title="停车场"></span>
                      </div>
                      <p>
                        <span>
                          <i></i>
                          地图
                        </span>
-                       <span>
+                       <span class="sp">
                          <i></i>
                          街景
                        </span>
@@ -372,6 +373,1338 @@
                      <a>
                        <span><sup>￥</sup></span>
                        <span>168</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-2.jpg"></a>
+                   <div><img src="../assets/hs2.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山徽隐阁精品酒店(黄山景区店)">
+                         <span>2</span>
+                         黄山徽隐阁精品酒店(黄山景区店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为舒适型酒店"></b>
+                     </p>
+                     <p>
+                       <a href="#">[汤口地区]</a>          
+                        黄山市 黄山风景区 寨西新村 距离换乘中心步行8分钟 免费接送电话(13305597080)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="停车场"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1522</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:7小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>178</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm3">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-3.jpg"></a>
+                   <div><img src="../assets/hs3.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="台湾璞致文化精品酒店(黄山风景区换乘店)">
+                         <span>3</span>
+                         台湾璞致文化精品酒店
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p>
+                       <a href="#">[汤口地区]</a>
+                       黄山风景区(南大门换乘中心800米处)汤口免费接送
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="停车场"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>2674</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:10小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>178</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <p class="fan">
+                       <i></i>
+                       188返17
+                     </p>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-4.jpg"></a>
+                   <div><img src="../assets/hs4.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山蝶尚非经验酒店(屯溪老街店)">
+                         <span>4</span>
+                         蝶尚非经验酒店(屯溪老街店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p>
+                       <a href="#">[黄山市区(屯溪)]</a>屯溪区仙人洞北路1-6号(近茶城距离火车站步行4分钟 距离老街打的3分钟 )
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>98%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1974</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:3小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>143</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-5.jpg"></a>
+                   <div><img src="../assets/hs5.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山香茗酒店">
+                         <span>5</span>
+                         黄山香茗酒店
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="国家旅游局评定星级为5星级"></b>
+                     </p>
+                     <p>
+                       <a href="#">[黄山市区(屯溪)]</a>屯溪区迎宾大道2号 近西海路 2016年7月18-29日 酒店游泳池维修不可使用
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>98%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1674</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:13小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>379</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-6.jpg"></a>
+                   <div><img src="../assets/hs6.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山广交大酒店(屯溪老街店)">
+                         <span>6</span>
+                         黄山广交大酒店(屯溪老街店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为舒适型酒店"></b>
+                     </p>
+                     <p>
+                       <a href="#">[黄山市区(屯溪)]</a>屯溪区昱阳路147号(新安江畔 屯溪老街和黎阳老街中间地段)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <!-- <span title="餐厅"></span> -->
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>98%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1674</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:28小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>152</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-7.jpg"></a>
+                   <div><img src="../assets/hs7.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山吉华国际大酒店(换乘中心店)">
+                         <span>7</span>
+                         黄山吉华国际大酒店(换乘中心店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[汤口市区]</a>黄山风景区换乘中心对面
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>97%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>3742</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:14小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>189</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm3 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-8.jpg"></a>
+                   <div><img src="../assets/hs8.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="清雅大酒店(换乘中心店)">
+                         <span>8</span>
+                         清雅大酒店(换乘中心店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p id="p4">
+                       <a href="#">[汤口市区]</a>安徽省黄山市黄山风景区汤口南大门景区换乘中心旁50米寨西汤川徽韵商贸城1-6号
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1598</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:11月20日</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>179</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <p class="fan">
+                       <i></i>
+                       191返12
+                     </p>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-9.jpg"></a>
+                   <div><img src="../assets/hs9.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山金色延安大酒店(老街店)">
+                         <span>9</span>
+                         黄山金色延安大酒店(老街店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为舒适型酒店"></b>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[黄山市区(屯溪)]</a>黄山市屯溪区延安路82号(距离老街步行3分钟)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <!-- <span title="接机"></span> -->
+                       <span title="餐厅"></span>
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>96%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1845</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:9小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>134</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-10.jpg"></a>
+                   <div><img src="../assets/hs10.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山印象大酒店(换乘中心店)">
+                         <span>10</span>
+                         黄山印象大酒店(换乘中心店)
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[汤口地区]</a>黄山风景区汤口镇翡翠路57号东岭停车场
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <!-- <span title="接机"></span> -->
+                       <span title="餐厅"></span>
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1777</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:15小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>236</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+
+               <div class="recom"></div>
+
+               <div class="c-item itm2 itm3 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-11.jpg"></a>
+                   <div><img src="../assets/hs11.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山滨江花园酒店(原元一柏瑞酒店)">
+                         <span>11</span>
+                         黄山滨江花园酒店
+                       </a>
+                       <i title="艺龙龙冠级合作酒店"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p id="p4">
+                       <a href="#">[黄山市区(屯溪)]</a>南滨江西路7号黄山元一大观水口街1A幢111号 近屯溪老街(步行10分钟) 新安江畔
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>96%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1598</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:10小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>275</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <p class="fan">
+                       <i></i>
+                       288返13
+                     </p>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm3 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-12.jpg"></a>
+                   <div><img src="../assets/hs12.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山百川大酒店(换乘中心店)">
+                         <span>12</span>
+                         黄山百川大酒店(换乘中心店)
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                       <b title="艺龙用户评定为舒适型酒店"></b>
+                     </p>
+                     <p id="p4">
+                       <a href="#">[汤口地区]</a>黄山景区新国线景区换乘中心对面步行100米(汤口高速出口左转100米-KFC旁)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>99%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>4388</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:1小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>97</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <p class="fan">
+                       <i></i>
+                       103返6
+                     </p>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-13.jpg"></a>
+                   <div><img src="../assets/hs13.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山国际大酒店">
+                         <span>13</span>
+                         黄山国际大酒店
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                       <b title="国家旅游局评定星级为5星级"></b>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[汤口地区]</a>黄山风景区汤口镇翡翠路57号东岭停车场
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>98%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>2964</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:4小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>353</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-14.jpg"></a>
+                   <div><img src="../assets/hs14.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山近林听山主题酒店">
+                         <span>14</span>
+                         黄山近林听山主题酒店
+                       </a>
+                       <i title="艺龙钻石级合作酒店" class="mond"></i>
+                       <b title="艺龙用户评定为高档型酒店"></b>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[汤口地区]</a>黄山风景区南大门(近换乘中心)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>639</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:8小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>330</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-15.jpg"></a>
+                   <div><img src="../assets/hs15.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山碧桂园凤凰酒店">
+                         <span>15</span>
+                         黄山碧桂园凤凰酒店
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                       <b title="艺龙用户评定为豪华型酒店"></b>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[屯溪区]</a>屯溪区齐云大道139号 近高铁北站 长途客运站
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span>
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>98%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>5142</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:8小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>328</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4 itm16">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-16.jpg"></a>
+                   <div><img src="../assets/hs16.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="尚客优骏怡连锁酒店(黄山屯溪汽车站店)">
+                         <span>16</span>
+                         尚客优骏怡(屯溪汽车站店)
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                       <!-- <b title="艺龙用户评定为豪华型酒店"></b> -->
+                     </p>
+                     <p id="p2">
+                       <a href="#">[屯溪区]</a>屯溪区齐云大道35号近汽车站
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <!-- <span title="接机"></span> -->
+                       <span title="餐厅"></span>
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>95%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>646</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:9小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>95</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4 itm16">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-17.jpg"></a>
+                   <div><img src="../assets/hs17.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山城市快捷酒店(火车站老街店)">
+                         <span>17</span>
+                         黄山城市快捷酒店(火车站老街店)
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[黄山市区(屯溪)]</a>屯溪区前园南路40号 近屯溪老街
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <!-- <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1633</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:10小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>99</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4 itm16">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-18.jpg"></a>
+                   <div><img src="../assets/hs18.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="7天连锁酒店(黄山火车站老街店)">
+                         <span>18</span>
+                         7天连锁酒店(黄山火车站老街店)
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                     </p>
+                     <p id="p4">
+                       <a href="#">[黄山市区(屯溪)]</a>黄山屯溪区前园北路8号老街旁(火车站出站直行300米)高铁专线21路公交直达酒店门口
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <!-- <span title="餐厅"></span> -->
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="spns">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>92%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1684</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:7小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>94</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm3 itm4 itm16">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-19.jpg"></a>
+                   <div><img src="../assets/hs19.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山宏村三友堂客栈">
+                         <span>19</span>
+                         黄山宏村三友堂客栈
+                       </a>
+                       <i title="艺龙钻石级合作酒店" class="mond"></i>
+                       <!-- <b title="艺龙用户评定为舒适型酒店"></b> -->
+                     </p>
+                     <p id="p2">
+                       <a href="#">[黟县区]</a>        黟县宏村南湖15号(宏村风景区)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <span title="餐厅"></span>
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>99%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>1586</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:10小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>333</span>
+                       <span><sub>起</sub></span>
+                     </a>
+                     <p class="fan">
+                       <i></i>
+                      360返27
+                     </p>
+                     <div>
+                       <a href="#">查看详情</a>
+                     </div>
+                     <div class="lasbox">
+                       <span>
+                         <i></i>
+                         <b>1130</b>
+                         收藏
+                       </span>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="c-item itm2 itm4 itm16">
+                 <div class="pic">
+                   <a href="#"><img src="../assets/hs-20.jpg"></a>
+                   <div><img src="../assets/hs20.jpg"></div>
+                 </div>
+                 <div class="text">
+                   <div class="base">
+                     <p>
+                       <a href="#" title="黄山宏村枫晴精品酒店">
+                         <span>20</span>
+                         黄山宏村枫晴精品酒店
+                       </a>
+                       <i title="艺龙皇冠级合作酒店" class="crown"></i>
+                     </p>
+                     <p id="p2">
+                       <a href="#">[黟县区]</a>黄山市黟县宏村景区内上水圳12号(近月沼承志堂)
+                     </p>
+                     <div>
+                       <span title="WiFi上网"></span>
+                       <span title="宽带上网" class="s4"></span>
+                       <span title="接机"></span>
+                       <!-- <span title="餐厅"></span> -->
+                       <!-- <span title="健身房"></span> -->
+                     </div>
+                     <p>
+                       <span>
+                         <i></i>
+                         地图
+                       </span>
+                       <span class="sp">
+                         <i></i>
+                         街景
+                       </span>
+                     </p>
+                   </div>
+                   <div class="comt">
+                     <a href="">
+                       <span>
+                         <i>100%</i>
+                         <i>好评</i>
+                       </span>
+                       <span>
+                         来自
+                         <b>236</b>
+                         条点评
+                       </span>
+                     </a>
+                     <p>最新预订:13小时前</p>
+                   </div>
+                   <div class="pri">
+                     <a>
+                       <span><sup>￥</sup></span>
+                       <span>183</span>
                        <span><sub>起</sub></span>
                      </a>
                      <div>
@@ -423,7 +1756,7 @@ export default {
 <style lang="scss" scope>
   .Box{
     width: 1200px;
-    height: 3922px;
+    height: 4222px;
     background: #a6e;
     margin: 10px auto;
       .mt{
@@ -846,7 +2179,7 @@ export default {
         width: 1200px;
           .hlist_left{
             width: 830px;
-            height: 3495px;
+            height: 3695px;
             background: #e8d;
              .sort{
               width: 828px;
@@ -948,9 +2281,14 @@ export default {
              }
              .contain{
                width: 830px;
-               height: 3386px;
+               height: 3586px;
                background: #d8a34c;
                margin: 20px 0 0 0;
+                 .recom{
+                   width: 830px;
+                   height: 166px;
+                   background-position: #ade;
+                 }
                  .c-item{
                    width: 100%;
                    height: 140px;
@@ -959,12 +2297,25 @@ export default {
                    flex-flow: row;
                    justify-content: space-between;
                    align-items: center;
-                   padding: 0 0 15px 0;
+                   padding: 10px 0 15px 0;
                    border-bottom:1px solid #ddd;
                     .pic{
                       width: 180px;
                       height: 130px;
                       background: #a7e;
+                      position: relative;
+                       div{
+                        position: absolute;
+                        top: 0;
+                        left:195px;
+                        display: none;
+                        // border:1px solid blue;
+                       }
+                    }
+                    .pic:hover{
+                      div{
+                        display: block;
+                      }
                     }
                     .text{
                       width: 635px;
@@ -986,8 +2337,9 @@ export default {
                             height: 25px;
                             // background: yellow;
                             display: flex;
-                            justify-content: space-around;
+                            justify-content: space-between;
                             align-items: center;
+                            font-size: 15px;
                              a{
                                text-decoration: none;
                                color:#49F;
@@ -1040,18 +2392,19 @@ export default {
                             }
                           }
                           div{
-                            width: 45px;
+                            width: 145px;
                             height: 20px;
                             // background: yellow;
                             display: flex;
                             flex-flow: row;
                             align-items: center;
-                            justify-content: space-around;
+                            justify-content: flex-start;
                              span{
                                width: 16px;
                                height: 17px;
                                background: url(../assets/icon-1.png) no-repeat;
                                display: block;
+                               margin: 0 0 0 5px;
                              }
                              span:nth-of-type(1){
                               background-position: 0 -4px;
@@ -1094,7 +2447,7 @@ export default {
                              span:nth-of-type(1):hover{
                               border:1px solid #49F;
                              }
-                             span:nth-of-type(2){
+                             .sp{
                                border-radius:0 10px 10px 0;
                                color:#ccc;
                                 i{
@@ -1255,6 +2608,141 @@ export default {
                        }
                      }
                  }
+                 .itm2{
+                   .text{
+                    .base{
+                      p:nth-of-type(1){
+                          .crown{
+                            width: 14px;
+                            height: 13px;
+                            background: url(../assets/com-2.png) no-repeat;
+                            background-position:-193px -40px; 
+                          }
+                          .mond{
+                            background-position: -171px -42px;
+                          }
+                      }
+                      p:nth-of-type(2){
+                        height: 40px;
+                      }
+                      div{
+                         span:nth-of-type(3){
+                           background-position: -77px -4px;
+                         }
+                         span:nth-of-type(4){
+                           background-position: -752px -73px;
+                         }
+                      }
+                    }
+                   }
+                 }
+                .itm3{
+                   .text{
+                    .base{
+                      #p4{
+                        height: 40px;
+                      }
+                      p:nth-of-type(2){
+                        height: 20px;
+                      }
+                      div{
+                         span:nth-of-type(3){
+                           background-position: -77px -4px;
+                         }
+                         span:nth-of-type(4){
+                           background-position: -752px -73px;
+                         }
+                         span:nth-of-type(5){
+                           background-position: -771px -73px;
+                         }
+                         .s4{
+                          background-position: -40px -4px;
+                         }
+                      }
+                      p:last-of-type{
+                        .spns{
+                          border:1px solid #CDE;
+                          color:#555;
+                          border-radius: 0 10px 10px 0;
+                            i{
+                              background-position: -265px -6px;
+                            }
+                        }
+                        span:nth-of-type(2):hover{
+                          border:1px solid #37e;
+                        }
+                      }
+                    }
+                    .pri{
+                      div:nth-of-type(1){
+                        margin: 10px 0 5px 0;
+                      }
+                      .fan{
+                        width: 65px;
+                        height: 14px;
+                        font-size:13px;
+                        // background: #d8a;
+                        display: flex;
+                        flex-flow: row;
+                        margin: 0;
+                         i{
+                          width: 13px;
+                          height: 14px;
+                          background: url(../assets/com-2.png) 0 -42px no-repeat;
+                          display: block;
+                         }
+                      }
+                      .lasbox{
+                        margin: 6px 0 0 0;
+                      }
+                    }
+                   }
+                 }
+                .itm4{
+                   .text{
+                    .base{
+                      #p2{
+                        height: 20px;
+                      }
+                      div{
+                         span:nth-of-type(3){
+                           background-position: -77px -4px;
+                         }
+                         span:nth-of-type(4){
+                           background-position: -752px -73px;
+                         }
+                         span:nth-of-type(5){
+                           background-position: -771px -73px;
+                         }
+                         .s4{
+                          background-position: -40px -4px;
+                         }
+                      }
+                      p:last-of-type{
+                        .spns{
+                          border:1px solid #CDE;
+                          color:#555;
+                          border-radius: 0 10px 10px 0;
+                            i{
+                              background-position: -265px -6px;
+                            }
+                        }
+                        span:nth-of-type(2):hover{
+                          border:1px solid #37e;
+                        }
+                      }
+                    }
+                   }
+                 }
+                .itm16{
+                  .text{
+                    .base{
+                      p:nth-of-type(1){
+                        justify-content: space-between;
+                      }
+                    }
+                  }
+                }
              }
           }
       }

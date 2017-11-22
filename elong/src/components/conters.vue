@@ -21,27 +21,22 @@
          <swiper-slide class="slideBox">
             <img src="../assets/top-6.jpg">
         </swiper-slide>
-         <!-- Optional controls -->
-         <!-- <div class="swiper-pagination dot"  slot="pagination"></div>
-         <div class="swiper-button-prev dot" slot="button-prev"></div>
-         <div class="swiper-button-next dot" slot="button-next"></div>
-         <div class="swiper-scrollbar dot"   slot="scrollbar"></div> -->
        </swiper>
        <div class="cade">
          <ul class="left">
-           <li class="one lis">
+           <li class="lif first">
              <i class="i1"></i>
              <span>酒店</span>
            </li>
-           <li class="lis">
+           <li class="lif">
              <i class="i2"></i>
              <span>机票</span>
            </li>
-           <li class="lis">
+           <li class="lif">
              <i class="i3"></i>
              <span>火车票</span>
            </li>
-           <li class="lis">
+           <li class="lif">
              <i class="i4"></i>
              <span>手机版</span>
            </li>
@@ -49,15 +44,16 @@
          <div class="rights rig1">
            <div class="hotel">
              <div class="clear">
-               <span>
+               <span class="bian">
                  <b>国内酒店</b>
                  <i></i>
                </span>
-               <span>
+               <span class="bubian">
                  <b>国际酒店</b>
+                 <i></i>
                </span>
              </div>
-             <div class="wrap">
+               <div class="wrap">
                <dl>
                  <dt>目的地</dt>
                  <dd>
@@ -97,17 +93,58 @@
                  </span>
                </div>
              </div>
+             <div class="wrap">
+               <dl>
+                 <dt>目的地</dt>
+                 <dd>
+                   <input type="text" value="首尔">
+                 </dd>
+               </dl>
+               <dl class="err">
+                 <dt>入住</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-22">
+                     <i></i>
+                   </label>
+                 </dd>
+                 <dt>退房</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-23">
+                     <i></i>
+                   </label>
+                 </dd>
+               </dl>
+               <dl>
+                 <dt>关键词</dt>
+                 <dd>
+                   <input type="text" placeholder="商圈/位置/酒店名">
+                 </dd>
+               </dl>
+               <div class="sub">
+                 <span>
+                   <i class="si1"></i>
+                   搜索
+                 </span>
+                 <!-- <span>
+                   <i class="si2"></i>
+                   地图搜索
+                 </span> -->
+               </div>
+             </div>
            </div>
          </div>
          <div class="rights rig2">
            <div class="hotel">
              <div class="clear">
-               <span>
+               <span class="bian">
                  <b>国内机票</b>
                  <i></i>
                </span>
-               <span>
+               <span class="bubian">
                  <b>国际机票</b>
+                 <i></i>
                </span>
              </div>
              <div class="wrap">
@@ -160,11 +197,62 @@
                  </span>
                </div>
              </div>
+             <div class="wrap">
+               <dl>
+                 <dt>航程类型</dt>
+                 <dd>
+                   <label>
+                     <input type="radio">
+                     <span>单程</span>
+                   </label>
+                   <label>
+                     <input type="radio">
+                     <span>往返</span>
+                   </label>
+                 </dd>
+               </dl>
+               <dl class="tick">
+                <dt>往返城市</dt>
+                 <dd>
+                   <input type="text" value="北京">
+                 </dd>
+                 <dt>
+                   <span class="wf"></span>
+                 </dt>
+                 <dd>
+                   <input type="text" value="香港">
+                 </dd>
+               </dl>
+               <dl class="err">
+                 <dt>去程</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-22">
+                     <span>周日</span>
+                     <i></i>
+                   </label>
+                 </dd>
+                 <dt>返程</dt>
+                 <dd>
+                   <label>
+                     <input type="text" value="2017-11-28">
+                     <span>周二</span>
+                     <i></i>
+                   </label>
+                 </dd>
+               </dl>
+               <div class="sub">
+                 <span>
+                   <i class="si1"></i>
+                   搜索
+                 </span>
+               </div>
+             </div>
            </div>
          </div>
-         <div class="rights rig2 rig3">
+         <div class="rights rig3">
            <div class="hotel">
-             <div class="wrap">
+             <div class="wraps">
                <dl class="tick">
                 <dt>往返城市</dt>
                  <dd>
@@ -259,7 +347,7 @@
         </li>
       </ul>
     </div>
-    <div class="termini">
+    <!-- <div class="termini">
       <div class="top">
          <h2>
            <a href="">目的地指数</a>
@@ -375,7 +463,8 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
+    <bourn></bourn>
     <div class="discount">
       <div class="top">
          <h2>
@@ -659,11 +748,13 @@
 
 <script>
 import { swiper,swiperSlide } from 'vue-awesome-swiper'
+import bourn from './bourn'
 export default {
   name: 'conters',
   components:{
     swiper,
-    swiperSlide
+    swiperSlide,
+    bourn
   },
   data () {
     return {
@@ -684,33 +775,55 @@ export default {
     }
   },
   methods:{
-    huangshan(){
-        this.$router.push({
-          name:'huangshan',
-        })
-      },
+    // huangshan(){
+    //     this.$router.push({
+    //       name:'huangshan',
+    //     })
+    //   },
   },
   mounted(){
-     var lis=document.getElementsByClassName('lis');
+     var lis=document.getElementsByClassName('lif');
      var rights=document.getElementsByClassName('rights');
-     console.log(rights)
      var index=0;
       for(let i=0;i<lis.length;i++){
           lis[i].index=i;
           lis[i].onclick=function(){
               for(let j=0;j<lis.length;j++){
                   rights[j].style.display='none';
-                  lis[j].style.color='#555';
-                  lis[j].style.background='#f3f3f3';
-                  lis[j].style.border='1px solid #e1e1e1';
-                  lis[j].style.borderLeft='none';
+                  lis[j].className="lif";
               }
               rights[this.index].style.display='block';
-              lis[this.index].style.border='none';
-              lis[this.index].style.color="#37D";
-              lis[this.index].style.background="#fff";
+              lis[this.index].className="lif first";
+          }  
+      }
+
+      const sps=document.querySelectorAll(".clear span");
+      const wraps=document.querySelectorAll(".wrap");
+      wraps[0].style.display="block";
+      wraps[2].style.display="block";
+      for(let k=0;k<sps.length;k++){
+        sps[k].index=k;
+        sps[k].onclick=function(){
+          if(k>1){
+            for(let m=0;m<wraps.length;m++){
+              if(m>1){
+                wraps[m].style.display="none";
+                sps[m].className="bubian";
+              }    
+             }
+              wraps[this.index].style.display="block";
+               sps[this.index].className="bian"; 
+          }else{
+            for(let m=0;m<wraps.length;m++){
+              if(m<=1){
+                wraps[m].style.display="none";
+                sps[m].className="bubian";
+              }   
+             }
+              wraps[this.index].style.display="block";
+              sps[this.index].className="bian"; 
           }
-          
+        }
       }
   },
   computed:{
@@ -759,25 +872,26 @@ export default {
          .left{
            width: 100px;
            height: 100%;
-           // background: #E066FF;
+           background: #f3f3f3;
            margin: 0;
            padding: 0;
            list-style: none;
            display: flex;
            flex-flow: column;
            align-content: flex-start;
-             li{
+             .lif{
+               cursor: pointer;
                width: 98px;
                height: 59px;
                background: #f3f3f3;
                border:1px solid #e1e1e1;
                border-left:none;
-               border-bottom:none;
                display: flex;
                justify-content: center;
                align-items: center;
                font-size: 14px;
                color:#555;
+               // border-right:1px solid transparent;
                 i{
                   background: url(../assets/index.png) no-repeat;
                   width: 15px;
@@ -785,7 +899,7 @@ export default {
                   display: block;
                 }
                 .i1{
-                  background-position: -557px -345px;
+                  background-position: -582px -345px;
                 }
                 .i2{
                   background-position: -582px -367px;
@@ -798,11 +912,49 @@ export default {
                   height: 18px;
                 }
              }
-             li:nth-of-type(1){
+             .lif:last-of-type{
+              border-bottom: none;
+             }
+             .first{
+               width: 100px;
+               height: 59px;
+               background: #f3f3f3;
+               border:1px solid #e1e1e1;
+               border-left:none;
+               border-right:none;
+               border-bottom:none;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-size: 14px;
                color:#37D;
-               background:#fff;
+               background: #fff;
                border:none;
-               // border-left:1px solid transparent;
+                i{
+                  //background: url(../assets/index.png) no-repeat;
+                  width: 15px;
+                  height: 15px;
+                  display: block;
+                }
+                .i1{
+                  background: url(../assets/index.png) -557px -345px no-repeat;
+                }
+                .i2{
+                  background: url(../assets/index.png) no-repeat;
+                  background-position: -555px -367px;
+                }
+                .i3{
+                  background: url(../assets/index.png) no-repeat;
+                  background-position: -556px -386px;
+                }
+                .i4{
+                  background: url(../assets/index.png) no-repeat;
+                  background-position: -555px -317px;
+                  height: 18px;
+                }
+             }
+             .first:last-of-type{
+              border-bottom: 1px solid #e1e1e1;
              }
          }
          .rights{
@@ -825,34 +977,40 @@ export default {
                 display: flex;
                 flex-flow: row;
                 margin: 10px 0 0 0;
+                  .bian{
+                    border-bottom: 2px solid #37D;
+                    color:#37D;
+                    i{
+                      width: 7px;
+                      height: 4px;
+                      background:url(../assets/index.png) -475px 0 no-repeat;
+                      display: block;
+                      margin: -2px auto 0 auto;
+                      }
+                  }
                   span{
                     width: 90px;
                     height: 32px;
-                    // background:#EEA2AD;
                     display: block;
-                    border-bottom: 2px solid #37D;
                     text-align: center;
                     line-height: 30px;
                     font-size: 14px;
-                    color:#37D;
-                      i{
-                        width: 7px;
-                        height: 4px;
-                        background:url(../assets/index.png) -475px 0 no-repeat;
-                        display: block;
-                        margin: -2px auto 0 auto;
-                      }
                   }
-                  span:last-of-type{
-                    border:none;
+                  .bubian{
                     color:#000;
+                    border:none;
                   }
+                  // span:last-of-type{
+                  //   border:none;
+                  //   color:#000;
+                  // }
               }
                .wrap{
                 width: 440px;
                 height: 136px;
                 // background:#AEEEEE;
                 margin: 15px 0 0 0;
+                display: none;
                   dl{
                     width: 100%;
                     height: 32px;
@@ -911,12 +1069,12 @@ export default {
                     }
                   }
                   .sub{
-                    width: 270px;
+                    width: 315px;
                     height: 32px;
                     // background: orange;
                     margin: 0 auto;
                     display: flex;
-                    justify-content: space-around;
+                    justify-content: flex-start;
                      span{
                        display: block;
                        height: 32px;
@@ -951,9 +1109,10 @@ export default {
                        border-radius: 5px;
                        border:1px solid gray;
                        height: 30px;
+                       margin: 0 0 0 25px;
                      }
                   }
-              }
+               }
             }
          }
          .rig1{
@@ -996,7 +1155,7 @@ export default {
                       width: 30px;
                       height: 25px;
                       display: block;
-                   }
+                }
                 dd{
                   width: 160px;
                   height: 30px;
@@ -1012,6 +1171,7 @@ export default {
                       font-size: 12px;
                       display: block;
                       line-height: 32px;
+                      color:#bbb;
                     }
                     i{
                       width: 27px;
@@ -1028,43 +1188,147 @@ export default {
          }
          .rig3{
            .hotel{
-            margin: 20px auto;
-             .wrap{
-               .tick{
+            margin: 30px auto;
+             .wraps{
+              width: 440px;
+              height: 124px;
+              // background:red;
+              .tick{
+                width: 440px;
+                height: 32px;
                 display: flex;
-                justify-content: flex-start;
-                 dt:nth-of-type(1){
-                   width: 70px;
+                flex-flow: row;
+                 dt{
+                   width: 145px;
+                   height: 32px;
+                   margin: 0;
+                   text-align: center;
+                   line-height: 32px;
+                   color:#555;
+                   font-size: 14px;
                  }
-                 dd:nth-of-type(1){
+                dt:nth-of-type(2){
+                  width: 80px;
+                  height: 30px;
+                  .wf{
+                      background: url(../assets/icon.png) -260px -750px no-repeat;
+                      width: 30px;
+                      height: 25px;
+                      display: block;
+                   }
+                 }
+                 dd{
+                   width: 370px;
+                   height: 32px;
+                   background: #fff;
+                   margin: 0;
                    border:1px solid #ddd;
-                 }
-                 dt:nth-of-type(2){
-                   width: 40px;
-                 }
-                 dd:nth-of-type(2){
-                   border:1px solid #ddd;
+                   border-radius: 4px;
+                   input{
+                     width: 90%;
+                     height: 90%;
+                     border:none;
+                     border-radius: 4px;
+                     margin: 0 0 0 10px;
+                     outline: none;
+                   }
                  }
                }
                .err{
-                 width: 85%;
-                 .spn{
-                   width: 100px;
-                   height: 32px;
-                   font-size: 13px;
-                   display: flex;
-                   flex-flow: row;
-                   align-items: center;
-                   margin: 0 0 0 20px;
-                   i{
-                     width: 12px;
-                     height: 12px;
-                     background: url(../assets/index.png) -536px -32px no-repeat;
-                     display:block;
-                     margin: 0 5px 0 0;
+                width: 440px;
+                height: 32px;
+                // background:orange;
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                 dt{
+                  width: 65px;
+                  height: 30px;
+                  font-size: 14px;
+                 }
+                 dd{
+                  width: 160px;
+                  height: 32px;
+                  margin: 0;
+                   label{
+                    width: 152px;
+                    height: 32px;
+                    display: flex;
+                    background: #fff;
+                    border:1px solid #ddd;
+                    border-radius: 5px;
+                    justify-content: space-between;
+                    align-items: center;
+                     input{
+                      width: 90%;
+                      height: 90%;
+                      border:none;
+                     }
+                     span{
+                        width: 38px;
+                        height: 32px;
+                        font-size: 12px;
+                        display: block;
+                        line-height: 32px;
+                     }
+                     i{
+                       width: 20px;
+                        height: 16px;
+                        background: url(../assets/icon.png) -480px -763px no-repeat;
+                        display: block;
+                        margin: 0 5px 0 0;
+                     }
                    }
                  }
-                 
+                 .spn{
+                   width: 110px;
+                   height: 32px;
+                   // background:#dfe;
+                   display: flex;
+                   flex-flow: row;
+                   font-size: 13px;
+                   align-items: center;
+                    i{
+                      width: 12px;
+                      height: 12px;
+                      background: url(../assets/index.png) -536px -32px no-repeat;
+                      display: block;
+                      margin: 0 5px 0 5px;
+                    }
+                 }
+               }
+               .sub{
+                 width: 315px;
+                 height: 32px;
+                 margin: 0 auto;
+                 display: flex;
+                 justify-content: flex-start;
+                   span{
+                     display: block;
+                     height: 32px;
+                     width: 159px;
+                     background: #e55;
+                     display: flex;
+                     flex-flow: row;
+                     align-items: center;
+                     justify-content: center;
+                     border-radius: 5px;
+                      i{
+                        width: 18px;
+                        height: 18px;
+                        background: url(../assets/icon.png) -432px -763px no-repeat;
+                        display: block;
+                      }
+                   }
+                   span:hover{
+                    background: #f55;
+                    color:#fff;
+                    width: 159px;
+                    border-radius: 5px;
+                     i{
+                      margin: 0 5px 0 0;
+                    }
+                   }
                }
              }
            }
@@ -1177,204 +1441,204 @@ export default {
            }
        }
    }
-   .termini{
-     width: 1200px;
-     height: 566px;
-     background: #fff;
-     margin: 20px auto;
-       .top{
-         width: 100%;
-         height: 46px;
-         // background: #fff;
-         border-bottom: 2px solid #f55;
-           a{
-             font:24px/46px Microsoft yahei;
-             color: #f55;
-             text-decoration: none;
-           }
-           span{
-             font:14px/46px Microsoft yahei;
-             color:#999;
-           }
-       }
-       .in{
-         width: 100%;
-         height: 250px;
-         // background:#a7c5d3;
-         margin: 5px auto;
-          h3{
-            width: 100%;
-            height: 48px;
-            // background: #ad1;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            margin: 0;
-             a{
-               text-decoration: none;
-               width: 85px;
-               height: 26px;
-               display: flex;
-               flex-flow: row;
-               font:18px/26px Microsoft yahei;
-                 i{
-                   background:url(../assets/index.png) -574px -100px no-repeat;
-                   width: 25px;
-                   height: 26px;
-                   margin: 0 5px 0 0;
-                 }
-             }
-             .span{
-               width: 1065px;
-               height: 35px;
-               // background: #e4a;
-               display: flex;
-               // justify-content: center;
-               align-items: center;
-                span{
-                  width: 76px;
-                 height: 24px;
-                 // background: #ab7;
-                 border:1px solid transparent;
-                 font:14px/22px Microsoft yahei;
-                 color:#555;
-                 display: block;
-                 margin: 0 0 0 10px;
-                 text-align: center;
-                 cursor: pointer;
-                }
-                span:nth-of-type(1){
-                  border-radius: 20px;
-                  background: #f55;
-                  color:#fff;
-                }
-                span:nth-of-type(1):hover{
-                  color:#fff;
-                }
-                span:hover{
-                   border-radius: 20px;
-                   border:1px solid #f55;
-                   color:#f55;
-                }
-             }
-             .rig{
-                 font:14px/22px Microsoft yahei;
-             }
-             .rig:hover{
-               color:#f55;
-             }
-          }
-          ul{
-            width: 100%;
-            height: 202px;
-            // background: #d45c2c;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-              li{
-                 width: 293px;
-                 height: 202px;
-                 // background: #d45;
-                 display: flex;
-                 flex-flow: column;
-                  a{
-                     width: 293px;
-                     height: 160px;
-                     background: #a6e8b4;
-                     position: relative;
-                      .img{
-                        width: 100%;
-                        height: 160px;
-                        background: url(../assets/hs.jpg);
-                        background-position: 0 -20px;
-                      }
-                      .name{
-                         position: absolute;
-                         width: 75px;
-                         height: 30px;
-                         font:24px/30px Microsoft yahei;
-                         color:#fff;
-                         bottom:10px;
-                         left:10px;
-                      }
-                  }
-                  .scale{
-                    width: 100%;
-                    height: 39px;
-                    background: #ccc;
-                    padding: 1px 0 0 0;
-                    border-bottom: 1px solid #999;
-                    z-index: 3;
-                      p{
-                        font-size:14px;
-                        color:#555;
-                        line-height: 39px;
-                        margin: 0 0 0 10px;
-                      }
-                  }
-              }
-              li:nth-of-type(2){
-                .img{
-                  background: url(../assets/ems.jpg);
-                }
-              }
-              li:nth-of-type(3){
-                .img{
-                  background: url(../assets/wts.jpg);
-                }
-              }
-              li:nth-of-type(4){
-                .img{
-                  background: url(../assets/ls.jpg);
-                }
-              }
-              li:hover{
-                  a{
-                    .img{
-                      transition: 1s ease position;
-                      background-position: 0 -25px;
-                    }
-                  }
-                  .scale{
-                    border-bottom: 2px solid #f55;
-                  }
-              }
-          }
-       }
-       .ter{
-         h3{
-          a{
-            i{
-            background:url(../assets/index.png) -574px -130px no-repeat;
-            }
-          }
-         }
-         ul{
-          li:nth-of-type(1){
-              .img{
-                background: url(../assets/ld.jpg);
-              }
-           }
-           li:nth-of-type(2){
-              .img{
-                background: url(../assets/qm.jpg);
-              }
-           }
-           li:nth-of-type(3){
-              .img{
-                background: url(../assets/jzd.jpg);
-              }
-           }
-           li:nth-of-type(4){
-              .img{
-                background: url(../assets/lm.jpg);
-              }
-           }
-         }
-       }
-   }
+   // .termini{
+   //   width: 1200px;
+   //   height: 566px;
+   //   background: #fff;
+   //   margin: 20px auto;
+   //     .top{
+   //       width: 100%;
+   //       height: 46px;
+   //       // background: #fff;
+   //       border-bottom: 2px solid #f55;
+   //         a{
+   //           font:24px/46px Microsoft yahei;
+   //           color: #f55;
+   //           text-decoration: none;
+   //         }
+   //         span{
+   //           font:14px/46px Microsoft yahei;
+   //           color:#999;
+   //         }
+   //     }
+   //     .in{
+   //       width: 100%;
+   //       height: 250px;
+   //       // background:#a7c5d3;
+   //       margin: 5px auto;
+   //        h3{
+   //          width: 100%;
+   //          height: 48px;
+   //          // background: #ad1;
+   //          display: flex;
+   //          justify-content: flex-start;
+   //          align-items: center;
+   //          margin: 0;
+   //           a{
+   //             text-decoration: none;
+   //             width: 85px;
+   //             height: 26px;
+   //             display: flex;
+   //             flex-flow: row;
+   //             font:18px/26px Microsoft yahei;
+   //               i{
+   //                 background:url(../assets/index.png) -574px -100px no-repeat;
+   //                 width: 25px;
+   //                 height: 26px;
+   //                 margin: 0 5px 0 0;
+   //               }
+   //           }
+   //           .span{
+   //             width: 1065px;
+   //             height: 35px;
+   //             // background: #e4a;
+   //             display: flex;
+   //             // justify-content: center;
+   //             align-items: center;
+   //              span{
+   //                width: 76px;
+   //               height: 24px;
+   //               // background: #ab7;
+   //               border:1px solid transparent;
+   //               font:14px/22px Microsoft yahei;
+   //               color:#555;
+   //               display: block;
+   //               margin: 0 0 0 10px;
+   //               text-align: center;
+   //               cursor: pointer;
+   //              }
+   //              span:nth-of-type(1){
+   //                border-radius: 20px;
+   //                background: #f55;
+   //                color:#fff;
+   //              }
+   //              span:nth-of-type(1):hover{
+   //                color:#fff;
+   //              }
+   //              span:hover{
+   //                 border-radius: 20px;
+   //                 border:1px solid #f55;
+   //                 color:#f55;
+   //              }
+   //           }
+   //           .rig{
+   //               font:14px/22px Microsoft yahei;
+   //           }
+   //           .rig:hover{
+   //             color:#f55;
+   //           }
+   //        }
+   //        ul{
+   //          width: 100%;
+   //          height: 202px;
+   //          // background: #d45c2c;
+   //          list-style: none;
+   //          margin: 0;
+   //          padding: 0;
+   //          display: flex;
+   //          justify-content: space-between;
+   //            li{
+   //               width: 293px;
+   //               height: 202px;
+   //               // background: #d45;
+   //               display: flex;
+   //               flex-flow: column;
+   //                a{
+   //                   width: 293px;
+   //                   height: 160px;
+   //                   background: #a6e8b4;
+   //                   position: relative;
+   //                    .img{
+   //                      width: 100%;
+   //                      height: 160px;
+   //                      background: url(../assets/hs.jpg);
+   //                      background-position: 0 -20px;
+   //                    }
+   //                    .name{
+   //                       position: absolute;
+   //                       width: 75px;
+   //                       height: 30px;
+   //                       font:24px/30px Microsoft yahei;
+   //                       color:#fff;
+   //                       bottom:10px;
+   //                       left:10px;
+   //                    }
+   //                }
+   //                .scale{
+   //                  width: 100%;
+   //                  height: 39px;
+   //                  background: #ccc;
+   //                  padding: 1px 0 0 0;
+   //                  border-bottom: 1px solid #999;
+   //                  z-index: 3;
+   //                    p{
+   //                      font-size:14px;
+   //                      color:#555;
+   //                      line-height: 39px;
+   //                      margin: 0 0 0 10px;
+   //                    }
+   //                }
+   //            }
+   //            li:nth-of-type(2){
+   //              .img{
+   //                background: url(../assets/ems.jpg);
+   //              }
+   //            }
+   //            li:nth-of-type(3){
+   //              .img{
+   //                background: url(../assets/wts.jpg);
+   //              }
+   //            }
+   //            li:nth-of-type(4){
+   //              .img{
+   //                background: url(../assets/ls.jpg);
+   //              }
+   //            }
+   //            li:hover{
+   //                a{
+   //                  .img{
+   //                    transition: 1s ease position;
+   //                    background-position: 0 -25px;
+   //                  }
+   //                }
+   //                .scale{
+   //                  border-bottom: 2px solid #f55;
+   //                }
+   //            }
+   //        }
+   //     }
+   //     .ter{
+   //       h3{
+   //        a{
+   //          i{
+   //          background:url(../assets/index.png) -574px -130px no-repeat;
+   //          }
+   //        }
+   //       }
+   //       ul{
+   //        li:nth-of-type(1){
+   //            .img{
+   //              background: url(../assets/ld.jpg);
+   //            }
+   //         }
+   //         li:nth-of-type(2){
+   //            .img{
+   //              background: url(../assets/qm.jpg);
+   //            }
+   //         }
+   //         li:nth-of-type(3){
+   //            .img{
+   //              background: url(../assets/jzd.jpg);
+   //            }
+   //         }
+   //         li:nth-of-type(4){
+   //            .img{
+   //              background: url(../assets/lm.jpg);
+   //            }
+   //         }
+   //       }
+   //     }
+   // }
    .discount{
     width: 1200px;
     height: 372px;
