@@ -1019,7 +1019,62 @@
                  </div>
                </div>
 
-               <div class="recom"></div>
+               <div class="recom">
+                 <div class="topbox">
+                   <div class="t-left">
+                     <i></i>
+                     达人推荐
+                   </div>
+                   <div class="t-right">
+                     <span></span>
+                     <span></span>
+                   </div>
+                 </div>
+                 <div class="botbox">
+                   <div class="pic">
+                     <img src="../assets/lw.jpg">
+                     <div><img src="../assets/lws.jpg"></div>
+                   </div>
+                   <div class="text">
+                     <div class="hrela">
+                      <div class="name">
+                        <p>
+                          <a href="" title="中瑞华艺大酒店(黄山景区换乘中心店)">中瑞华艺大酒店(黄山景区换乘中心店)</a>
+                          <i title="艺龙皇冠级合作酒店"></i>
+                          <b title="艺龙用户评定为高档型酒店"></b>
+                        </p>
+                        <p>
+                          <a href="#">[汤口地区]</a>黄山市黄山风景区汤口镇(南大门)
+                        </p>
+                      </div>
+                      <div class="price">
+                        <a>
+                          <span><sup>￥</sup></span>
+                          <span>265</span>
+                          <span><sub>起</sub></span>
+                        </a>
+                        <p class="fan">
+                          <span>
+                            <i></i>
+                            188返17
+                          </span>
+                        </p>
+                      </div>
+                     </div>
+                     <div class="recmd">
+                       <p>
+                         <span>96%</span>
+                         <span>推荐</span>
+                       </p>
+                       <p>
+                         <span></span>
+                         位于黄山老街旁，从酒店步行至老街入口仅需2分钟，地理位置非常便捷
+                         <span></span>
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
 
                <div class="c-item itm2 itm3 itm4">
                  <div class="pic">
@@ -1720,8 +1775,26 @@
                    </div>
                  </div>
                </div>
+               <div class="pagin">
+                 <a href="#" title="第1页">1</a>
+                 <a href="#" title="第2页">2</a>
+                 <a href="#" title="第3页">3</a>
+                 <a href="#" title="第4页">4</a>
+                 <a href="#" title="第5页">5</a>
+                 <a href="#" title="第6页">6</a>
+                 <a href="#" title="第7页">7</a>
+                 <span>...</span>
+                 <a href="#" title="第75页">75</a>
+                 <a href="#">下一页</a>
+               </div>
              </div>
            </div>
+         </div>
+         <div class="fixseo">
+           <h2>
+              黄山市酒店信息
+              <i></i>
+           </h2>
          </div>
       </div>
     </section>
@@ -1756,8 +1829,8 @@ export default {
 <style lang="scss" scope>
   .Box{
     width: 1200px;
-    height: 4222px;
-    background: #a6e;
+    height: 4065px;
+    background: #fff;
     margin: 10px auto;
       .mt{
         width: 100%;
@@ -2179,8 +2252,8 @@ export default {
         width: 1200px;
           .hlist_left{
             width: 830px;
-            height: 3695px;
-            background: #e8d;
+            height: 3600px;
+            // background: #e8d;
              .sort{
               width: 828px;
               height: 41px;
@@ -2281,14 +2354,9 @@ export default {
              }
              .contain{
                width: 830px;
-               height: 3586px;
-               background: #d8a34c;
+               height: 3535px;
+               // background: #d8a34c;
                margin: 20px 0 0 0;
-                 .recom{
-                   width: 830px;
-                   height: 166px;
-                   background-position: #ade;
-                 }
                  .c-item{
                    width: 100%;
                    height: 140px;
@@ -2743,8 +2811,326 @@ export default {
                     }
                   }
                 }
+                .recom{
+                  width: 100%;
+                  height: 166px;
+                  background: #fac;
+                  box-sizing: border-box;
+                  border:1px #ffe9c7 solid;
+                   .topbox{
+                     width: 828px;
+                     height: 34px;
+                     background: #fff3d0;
+                     display: flex;
+                     justify-content: space-between;
+                       .t-left{
+                         width: 180px;
+                         height: 34px;
+                         background: #f90;
+                         display: flex;
+                         flex-flow: row;
+                         color:#fff;
+                         font-size: 18px;
+                         line-height: 34px;
+                           i{
+                            width: 50px;
+                            height: 50px;
+                            background: url(../assets/list.png) -141px -22px no-repeat;
+                            display: block;
+                            margin: -9px 10px 0 0;
+                           }
+                       }
+                       .t-right{
+                        width: 50px;
+                        height: 34px;
+                        // background: #faa57c;
+                        display: flex;
+                        flex-flow: row;
+                        align-items: center;
+                         span{
+                           width: 6px;
+                           height: 6px;
+                           background:url(../assets/list.png) no-repeat;
+                           display: block;
+                           margin: 0 0 0 5px;
+                         }
+                         span:nth-of-type(1){
+                          background-position: -185px -8px;
+                         }
+                         span:last-of-type{
+                          width: 6px;
+                          height: 6px;
+                          background-position: -185px 0px;
+                         }
+                       }
+                   }
+                   .botbox{
+                     width: 828px;
+                     height: 130px;
+                     background: #fff;
+                     display: flex;
+                     flex-flow: row;
+                     justify-content: space-between;
+                     position: relative;
+                      .pic{
+                        width: 180px;
+                        height: 130px;
+                         img{
+                           width: 100%;
+                           height: 100%;
+                         }
+                         div{
+                          position: absolute;
+                          top: 0px;
+                          left: 190px;
+                          display: none;
+                         }
+                      }
+                      .pic:hover{
+                        div{
+                          display: block;
+                        }
+                      }
+
+                      .text{
+                        width: 633px;
+                        height: 130px;
+                        // background: #f8e;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-around;
+                         .hrela{
+                          width: 623px;
+                          height: 72px;
+                          // background: #e87;
+                          display: flex;
+                          flex-flow: row;
+                          justify-content: space-around;
+                          align-items: center;
+                          padding: 0 0 5px 0;
+                          border-bottom: 1px solid #ddd;
+                           .name{
+                             width: 504px;
+                             height: 49px;
+                             // background:green;
+                             display: flex;
+                             align-items: flex-start;
+                             flex-flow: column;
+                             justify-content: space-around;
+                              p{
+                                margin: 0;
+                              }
+                              p:nth-of-type(1){
+                                width: 365px;
+                                height: 21px;
+                                display: flex;
+                                flex-flow: row;
+                                justify-content: space-between;
+                                align-items: center;
+                                 a{
+                                  text-decoration: none;
+                                  color:#37E;
+                                 }
+                                 a:hover{
+                                  color:#f55;
+                                 }
+                                 i{
+                                  width: 14px;
+                                  height: 13px;
+                                  display: block;
+                                  background: url(../assets/com-2.png) -193px -40px no-repeat;
+                                 }
+                                 b{
+                                  width: 60px;
+                                  height: 10px;
+                                  background: url(../assets/com-2.png) -398px -120px no-repeat;
+                                 }
+                              }
+                              p:nth-of-type(2){
+                                width: 100%;
+                                height: 20px;
+                                font-size: 13px;
+                                 a{
+                                  text-decoration: none;
+                                  color:#37e;
+                                 }
+                                 a:hover{
+                                  color: #f55;
+                                 }
+                              }
+                           }
+                           .price{
+                             width: 100px;
+                             height: 54px;
+                             // background: #51e;
+                             display: flex;
+                             flex-flow: column;
+                             align-items: center;
+                             justify-content: center;
+                              a{
+                                width: 76px;
+                                height: 14px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                 span:nth-of-type(1){
+                                  color:#555;
+                                  font-size: 13px;
+                                 }
+                                 span:nth-of-type(2){
+                                  color:#f55;
+                                  font-size: 28px;
+                                 }
+                                 span:nth-of-type(3){
+                                  color:#49f;
+                                  font-size: 13px;
+                                 }
+                                 span:nth-of-type(3):hover{
+                                  color:#f55;
+                                 }
+                              }
+                              p{
+                                width: 65px;
+                                height: 20px;
+                                margin: 10px 0 0 0;
+                                  span{
+                                    width: 64px;
+                                    height: 14px;
+                                    border:1px solid #f55;
+                                    font-size: 13px;
+                                    // display: block;
+                                    display: flex;
+                                    flex-flow: row;
+                                    align-items: center;
+                                    color: #f55;
+                                     i{
+                                      width: 13px;
+                                      height: 14px;
+                                      background: url(../assets/com-2.png) 0 -42px no-repeat;
+                                      display: block;
+                                     }
+                                  }
+                              }
+                           }
+                         }
+                         .recmd{
+                           width: 623px;
+                           height: 50px;
+                           // background: #a5e;
+                           display: flex;
+                           flex-flow: row;
+                           align-items: center;
+                            p{
+                              margin: 0;
+                            }
+                            p:nth-of-type(1){
+                              width: 64px;
+                              height: 40px;
+                              // background: #d6c;
+                              display: flex;
+                              flex-flow: column;
+                              border-right: 1px solid #ddd;
+                               span{
+                                 width: 100%;
+                                 height: 20px;
+                               }
+                               span:nth-of-type(1){
+                                color:#f55;
+                                font-size: 18px;
+                               }
+                               span:nth-of-type(2){
+                                color:#999;
+                                font-size: 12px;
+                               }
+                            }
+                            p:nth-of-type(2){
+                              width: 550px;
+                              height: 20px;
+                              // background: #f6e;
+                              font-size: 12px;
+                              color:#999;
+                              display: flex;
+                              flex-flow: row;
+                              align-items: center;
+                              margin: 15px 0 0 10px;
+                               span{
+                                width: 12px;
+                                height: 9px;
+                                display: block;
+                                background: url(../assets/list.png) no-repeat;
+                               }
+                               span:nth-of-type(1){
+                                background-position: -143px -9px;
+                               }
+                               span:nth-of-type(2){
+                                background-position: -159px -9px;
+                               }
+                            }
+                         }
+                      }
+                   }
+                }
+                .recom:hover{
+                  border:1px solid orange;
+                }
+                .pagin{
+                  width: 100%;
+                  height: 28px;
+                  // background: #dec;
+                  margin: 10px auto;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                   a{
+                    width: 20px;
+                    height: 26px;
+                    border:1px solid #ddd;
+                    text-decoration: none;
+                    color:#555;
+                    line-height: 28px;
+                    text-align: center;
+                    margin: 0 5px 0 5px;
+                   }
+                   a:nth-of-type(1){
+                    background: #49f;
+                    color:#fff;
+                   }
+                   a:last-of-type{
+                    width: 54px;
+                   }
+                   a:hover{
+                     border:1px solid #49f;
+                     color:#49f;
+                   }
+                }
              }
           }
+      }
+      .fixseo{
+        width: 1198px;
+        height: 50px;
+        // background: #def;
+        border:1px solid #ddd;
+        margin: 10px 0 0 0;
+        display: flex;
+        align-items: center;
+         h2{
+           width: 100%;
+           height: 24px;
+           // background: #e57;
+           font-size: 14px;
+           display: flex;
+           flex-flow: row;
+           align-items: center;
+           color:#999;
+            i{
+              width: 11px;
+              height: 11px;
+              background: url(../assets/com-2.png) -301px -121px no-repeat;
+              display: block;
+              margin: 0 0px 0 5px;
+            }
+         }
       }
   }
 </style>
