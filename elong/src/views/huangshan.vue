@@ -1789,6 +1789,7 @@
                </div>
              </div>
            </div>
+           <baidumap></baidumap>
          </div>
          <div class="fixseo">
            <h2>
@@ -1807,11 +1808,13 @@
 <script>
 import headers from '../components/headers'
 import foots from '../components/foots'
+import baidumap from '../components/baidumap'
 export default {
   name: 'huangshan',
   components:{
     headers,
-    foots
+    foots,
+    baidumap
   },
   data () {
     return {
@@ -2250,6 +2253,7 @@ export default {
       }
       .hlist{
         width: 1200px;
+        display:flex;
           .hlist_left{
             width: 830px;
             height: 3600px;

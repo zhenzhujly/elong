@@ -10,7 +10,11 @@ import router  from './router';
 import Element from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import BaiduMap from 'vue-baidu-map'
 
+Vue.use(BaiduMap,{
+  ak:'QjsgsBHlhiwIXoMlnoWlaLShic98pYAR'
+});
 Vue.use(VueAwesomeSwiper)
 Vue.use(Element);
 export default {

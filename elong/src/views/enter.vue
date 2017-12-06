@@ -1,531 +1,591 @@
 <template>
-  <div id="enter"> 
-    <div class="heade">
-      <div class="logo"></div>
-    </div>
+  <div id="enter">
+    <div class="logo"><i></i></div>
     <div class="loginbox">
-       <div class="pic" @click='admins'></div>
-       <div class="code">
-         <div class="user">
-               <label>
-                 <input type="radio" name="">
-                 普通登录
-               </label>
-               <label>
-                 <input type="radio" name="">
-                 手机动态密码登录
-               </label>
-         </div>
-         <div class="nami-l">
-           <div class="inpbox">
-             <input type="text" placeholder="用户名/卡号/手机号/邮箱">
-             <i class="i1"></i>
-           </div>
-           <div class="inpbox">
-             <input type="text" placeholder="密码">
-             <i class="i2"></i>
-           </div>
-           <div class="err">
-             <input type="text" placeholder="验证码">
-             <span>degA</span>
-             <a href="">换一张</a>
-           </div>
-           <div class="forget">
-              <span>√</span>
-              <span>两个月内免登陆</span>
-            </div>
-           <a href="" class="dl">登录</a>
-         </div>
-         <div class="nami">
-            <div class="inpbox">
-              <select name="">
+      <div><img src="../assets/banner.jpg" alt=""></div>
+      <div class="formbox">
+        <div class="nav_login">
+          <span class="lable"><input type="radio" name="sex" checked="checked">&nbsp;&nbsp;普通登录</span>
+          <span class="lable"><input type="radio" name="sex">&nbsp;&nbsp;手机动态密码登录</span>
+        </div>
+        <div class="DynamicLogo logos">
+          <div class="inputbox">
+            <input class="mm" type="text" placeholder="用户名/卡号/手机号/邮箱">
+            <i></i>
+            <div class="div"></div>
+          </div>
+          <div class="inputbox">
+            <input class="mm" type="password" placeholder="密码">
+            <span></span>
+            <div class="div"></div>
+          </div>
+          <div class="err">
+            <input class="mm" type="text" placeholder="验证码">
+            <span class="num">7925</span>
+            <a href="javascript:;">换一张</a>
+            <div class="div"></div>
+          </div>
+          <div class="forget">
+            <span>√</span>
+            <span>两个月内免登陆</span>
+          </div>
+          <div class="loginbtn"><a href="javascript:;">登录</a></div>
+        </div>
+
+        <div class="Dynamic logos">
+          <div class="inputbox">
+            <select name="">
                     <option value="">中国大陆+86</option>
                     <option value="">中国香港+852</option>
                     <option value="">中国澳门+853</option>
                     <option value="">中国台湾+886</option>
-              </select>
-              <input type="text" placeholder="请输入手机号">
-            </div>
-            <div class="err">
-              <input type="text" placeholder="验证码">
-              <span>degA</span>
-              <a href="">换一张</a>
-            </div>
-            <div class="pw">
-              <input type="text" placeholder="输入动态密码">
-              <button>获取动态密码</button>
-            </div>
-            <div class="forget">
-              <span>√</span>
-              <span>记住我</span>
-            </div>
-            <a href="" class="dl">登录</a>
-            <div class="bind">
-              用户未绑定手机号？
-              <div class="bind-box">
-                 <span class="icon"></span>
-                 <p>
-                   <i></i>
-                   未注册的用户，请先注册
-                 </p>
-                 <p>
-                   <i></i>
-                   已经注册但仍未绑定手机号的用户，请拨打
-                   <a href="">400-666-1166</a>
-                   联系客服绑定手机。
-                 </p>
-              </div>
-            </div>
-         </div>
-       </div>
+                   </select>
+            <input class="hao" type="text" placeholder="请输入手机号">
+              <div class="div2"></div>
+          </div>
+          <div class="err">
+            <input class="hao" type="text" placeholder="验证码">
+            <span class="num2">7925</span>
+            <a href="javascript:;">换一张</a>
+              <div class="div2"></div>
+          </div>
+          <div class="inputbox box">
+            <input class="hao"  type="password" placeholder="密码">
+            <span>获取动态密码</span>
+              <div class="div2"></div>
+          </div>
+          <div class="forget">
+            <span>√</span>
+            <span>记住我</span>
+          </div>
+          <div class="loginbtn arr"><a href="javascript:;">登录</a></div>
+        </div>
+      </div>
     </div>
-    <div class="tip">
-      <a href="">
-        立即注册
-        <i></i>
-      </a>
+    <br>
+    <div class="register_tip">
+      <a href="">立即注册<i></i></a>
     </div>
+    <br>
+    <br>
+    <br>
     <div class="footer">
-       <div class="mobile">
-         <a href="">
-           <span></span>
-           iPhone / iPad
-         </a>
-         <a href="">
-           <span></span>
-           Android
-         </a>
-       </div>
-       <div>
-         <a href="">代理合作</a>|
-         <a href="">广告服务</a>|
-         <a href="">联系我们</a>
-        ©1999 - 2014 eLong, Inc or its affiliates. All Rights Reserved.
-    
-       </div>
+      <p>
+        <a href="javascript:;"><i class="ip_one"></i>iPhone/iPad</a>
+        <a href="javascript:;"><i class="and_ld"></i>Androld</a>
+      </p>
+      <p>
+        <a href="javascript:;">代理合作</a>
+        <i>|</i>
+        <a href="javascript:;">广告服务</a>
+            <i>|</i>
+        <a href="javascript:;">联系我们</a>
+        <span>©1999 - 2014 eLong, Inc or its affiliates. All Rights Reserved.</span>
+      </p>
     </div>
   </div>
 </template>
-
 <script>
 export default {
-  name: 'enter',
-  data () {
+  name: "enter",
+  data (){
     return {
-    
+
     }
   },
   methods:{
-    admins(){
-        this.$router.push({
-          name:'admin',
-        })
-      },
+    
+  },
+  watch:{
+
   },
   mounted(){
+     
+    var put=document.querySelectorAll(".nav_login span input");
+    var logo=document.querySelectorAll(".logos");   
+    logo[0].style.display="block";
+    for(let i=0;i<put.length;i++){
+      put[i].onclick=function(){
+        for(let j=0;j<put.length;j++){
+         logo[j].style.display="none"
+        }
+        logo[i].style.display='block';
+      }
+    }
+
+    var user=document.getElementsByClassName("mm");
+    var div=document.getElementsByClassName("div");
+
+    function userFun(){
+      var re=/^[-_a-zA-Z0-9\u4e00-\u9fa5]{4,20}$/g;
+      var isOk=re.test(user[0].value);
+      if(user[0].value == ""){
+          div[0].style.display="block";
+          div[0].innerHTML="请输入用户名";
+      }else if(user[0].length < 4 || user[0].length >20){
+        div[0].style.display="block";
+        div[0].innerHTML="请输入长度为4-20字符的用户名"
+      }else if( !isOk ){
+        div[0].style.display="block";
+        div[0].innerHTML="格式错误，仅支持汉字、字母、数字、“-”“_”的组合"
+      }else{
+        div[0].style.display="none"
+      }
+    }
+    
+    function mm(){
+        if( user[1].value.length < 4 || user[1].value.length > 30 ){
+          div[1].style.display="block";
+            div[1].innerHTML="4-30个字符或数字组成"
+        }else if( user[1].value == "" ){
+          div[1].style.display="block";
+          div[1].innerHTML="密码不能空"
+        }else{
+          div[1].style.display="none"
+        }
+    }
+    var num=document.getElementsByClassName("num")[0];
+    
+    function yy(){
+        if( user[2].value != num.innerHTML ){
+            div[2].style.display="block"
+            div[2].innerHTML="验证码错误"
+        }else{
+            div[2].style.display="none"
+        }
+    }
+    var dian=document.getElementsByClassName("loginbtn")[0];
+
+    dian.onclick=function(){
+      userFun()
+      mm()
+      yy()
+    }
+
+
+
+    var shou=document.getElementsByClassName("hao");
+    var div2=document.getElementsByClassName("div2");
+
+    function shouji(){
+      var hao=/^1[34578]{1}[0-9]{9}$/g;
+      var isok=hao.test(shou[0].value)
+        if( shou[0].value == "" ){
+          div2[0].innerHTML="手机号不能为空"
+          div2[0].style.display="block"
+        }else if( !isok ){
+          div2[0].innerHTML="请输入正确的手机号"
+          div2[0].style.display="block"
+        }else{
+          div2[0].style.display="none"
+        }
+    }
+    
+    var num2=document.getElementsByClassName("num2")[0];
+
+    function yanzheng(){
+      if( shou[1].value == "" ){
+        div2[1].innerHTML="验证不能为空"
+        div2[1].style.display='block'
+      }else if( shou[1].value != num2.innerHTML ){
+            div2[1].innerHTML="验证码错误"
+            div2[1].style.display='block'
+      }else{
+        div2[1].style.display='none'
+      }
+    }
+
+    
+    var dians=document.getElementsByClassName("arr")[0];
+    
+    dians.onclick=function(){
+      shouji()
+      yanzheng()
+    }
+
+    
 
   }
 }
 </script>
 <style lang="scss" scope>
-#enter{
-  width: 100%;
-  height: 636px;
-  background: #e8eff6;
-   .heade{
-     width: 1000px;
-     height: 100px;
-     // background: #fff;
-     margin: 0 auto; 
-     display: flex;
-     align-items: center;
-       .logo{
-         width: 113px;
-         height: 48px;
-         background: url(../assets/login.png) 0 0 no-repeat;
-       }
+*{
+  padding:0;
+  margin:0;
+}
+html{
+  background:#E8EFF6;
+}
+.logo{
+   width:1000px;
+   height:100px;
+   margin:0 auto;
+   // background:red;
+   overflow:hidden;
+   i{
+    display:block;
+    width:113px;
+    height:48px;
+    background:url(../assets/login.png) no-repeat 0 0;
+    margin:26px 0 0 0;
    }
-   .loginbox{
-     width: 1000px;
-     height: 350px;
-     margin: 0 auto;
-     background: #fff;
-     display: flex;
-     justify-content: space-between;
-       .pic{
-         width: 620px;
-         height: 350px;
-         background: url(../assets/banner.jpg);
-       }
-       .code{
-         width: 375px;
-         height: 346px;
-         // background: #ab4;
-         display: flex;
-         justify-content: center;
-         flex-flow: column;
-         align-items: center;
-         .user{
-            width: 285px;
-            height: 12px;
-            padding:0 0 12px 0;
-          }
-          .nami-l{
-            width: 285px;
-            height: 277px;
-            // background: #a4e;
-            display: flex;
-            flex-flow: column;
-            justify-content: space-around;
-              div{
-                 width: 100%;
-                 height: 35px;
-                 // background: #d4a;
-                 // margin: 0;
-              }
-              .inpbox{
-                display: flex;
-                justify-content: space-between;
-                // background: #fff;
-                position: relative;
-                // align-items: center;
+}
+.loginbox{
+  width:1000px;
+  height:350px;
+  background:#fff;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  .formbox{
+    width:375px;
+    height:346px;
+    background:#fff;
+    .nav_login{
+      height:50px;
+      margin:10px 0 0 0;
+      .lable{
+                font-size:12px;
+                margin:0 0 0 60px;
+                line-height:50px;
+                  // padding:50px 0 0 0;
                 input{
-                  width: 100%;
-                  height: 100%;
-                  border:1px solid gray;
-                  border-radius: 5px;
+                  // margin:50px 0 0 0;
                 }
-                i{
-                  width: 30px;
-                  height: 100%;
-                  position: absolute;
-                  right: 0;
-                }
-                .i1{
-                  background: url(../assets/login.png) -108px -271px no-repeat;
-                }
-                .i2{
-                  background: url(../assets/login.png) -132px -268px no-repeat;
-                }
-              }
-              .err{
-                display: flex;
-                justify-content: space-between;
-                input{
-                  border:1px solid gray;
-                  border-radius: 5px;
-                }
-                span{
-                  width: 65px;
-                  height: 35px;
-                  // background: #75c;
-                  line-height: 35px;
-                  font-size: 25px;
-                }
-                a{
-                  text-decoration: none;
-                  color:#49f;
-                  font-size: 12px;
-                  text-align: center;
-                  line-height: 35px;
-                }
-              }
-            .forget{
-                height: 12px;
-                display: flex;
-                flex-flow: row;
-                span:nth-of-type(1){
-                  width: 10px;
-                  height: 10px;
-                  border:1px solid #ccc;
-                  display: block;
-                  background: blue;
-                  color:#fff;
-                  font-size: 12px;
-                  text-align: center;
-                }
-                span:nth-of-type(2){
-                  font-size: 12px;
-                  margin: -2px 0 0 5px ;
-                  color:#999;
-                }
-              }
-              .dl{
-                height: 35px;
-                text-decoration: none;
-                background: orange;
-                text-align: center;
-                line-height: 35px;
-                color:#fff;
-                font-size: 20px;
-              }
-              .dl:hover{
-                opacity: 0.7;
-              }
-          }
-          .nami{
-             width: 285px;
-             height: 277px;
-             background: #a87;
-             display: flex;
-             flex-flow: column;
-             justify-content: space-between;
-             display: none;
-              div{
-                 width: 100%;
-                 height: 35px;
-                 // background: #d4a;
-              }
-              .inpbox{
-                // background: #d5e;
-                display: flex;
-                justify-content: space-between;
-                 select{
-                  border:1px solid gray;
-                  border-radius: 5px;
-                 }
-                 input{
-                  border-radius: 5px;
-                  border:1px solid gray;
-                 }
-              }
-              .err{
-                display: flex;
-                justify-content: space-between;
-                input{
-                  border:1px solid gray;
-                  border-radius: 5px;
-                }
-                span{
-                  width: 65px;
-                  height: 35px;
-                  // background: #75c;
-                  line-height: 35px;
-                  font-size: 25px;
-                }
-                a{
-                  text-decoration: none;
-                  color:#49f;
-                  font-size: 12px;
-                  text-align: center;
-                  line-height: 35px;
-                }
-              }
-              .pw{
-                display: flex;
-                justify-content: space-between;
-                input{
-                  border:1px solid gray;
-                  border-radius: 5px;
-                }
-                button{
-                  width: 110px;
-                  background: #37D;
-                  border:none;
-                  border-radius: 5px;
-                  color:#fff;
-                }
-              }
-              .forget{
-                height: 12px;
-                display: flex;
-                flex-flow: row;
-                span:nth-of-type(1){
-                  width: 10px;
-                  height: 10px;
-                  border:1px solid #ccc;
-                  display: block;
-                  background: blue;
-                  color:#fff;
-                  font-size: 12px;
-                  text-align: center;
-                }
-                span:nth-of-type(2){
-                  font-size: 12px;
-                  margin: -2px 0 0 5px ;
-                  color:#999;
-                }
-              }
-              .dl{
-                height: 35px;
-                text-decoration: none;
-                background: orange;
-                text-align: center;
-                line-height: 35px;
-                color:#fff;
-                font-size: 20px;
-              }
-              .dl:hover{
-                opacity: 0.7;
-              }
-              .bind{
-                font-size: 14px;
-                position: relative;
-                 .bind-box{
-                   width: 258px;
-                   height: 102px;
-                   border:1px solid gray;
-                   background: #fff;
-                   position: absolute;
-                   top: 36px;
-                   display: flex;
-                   flex-flow: column;
-                   display: none;
-                     span{
-                       background: url(/static/img/icon.b5ea94e.png) -213px -763px no-repeat;
-                       width: 16px;
-                       height: 16px;
-                       display: block;
-                       position: absolute;
-                       top: -8px;
-                       left:25px;
-                     }
-                     p{
-                      display: flex;
-                      // justify-content: space-space;
-                      align-items: center;
-                      flex-flow: row wrap;
-                      width:100%;
-                      font-size: 12px;
-                      // margin: 0;
-                       i{
-                        width: 3px;
-                        height: 3px;
-                        background: #ccddee;
-                        margin:  0 5px 0 5px;
-                       }
-                     }
-                     p:nth-of-type(1){
-                      height: 20px;
-                      // background: #e75;
-                     }
-                     p:nth-of-type(2){
-                      height: 40px;
-                      // background: #7cd;
-                      a{
-                        text-decoration: none;
-                        text-indent: 13px;
-                      }
-                     }
-                 }
-              }
-              .bind:hover .bind-box{
-                display: block;
-              }
-          }
-       }
-   }
-   .tip{
-     width: 1012px;
-     height: 15px;
-     // background: #df4;
-     margin: 15px auto;
-     display: flex;
-     justify-content: flex-end;
-       a{
-         width: 66px;
-         height: 14px;
-         // background: #ba4;
-         text-decoration: none;
-         color:#3365CB;
-         display: flex;
-         flex-flow: row;
-         font-size: 12px;
-           i{
-             background: url(../assets/login.png) 0 -430px no-repeat;
-             width:15px;
-             height: 15px;
-             display: block;
-           }
-       }
-       a:hover{
-         color:orange;
-          i{
-             background: url(../assets/login.png) 0 -445px no-repeat;
-          }
-       }
-   }
-   .footer{
-     width: 1000px;
-     height: 92px;
-     // background: #d8c;
-     margin: 35px auto;
-     display: flex;
-     flex-flow: column;
-     align-content: flex-start;
-       div{
-         // background: #d8f;
-         width: 1000px;
-         height: 30px; 
-       }
-       .mobile{
-          // background: #abe421;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          a{
-             width: 150px;
-             height: 22px;
-             // background: #fb5;
-             margin: 0 0 0 3px;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             text-decoration: none;
-             color:gray;
-             font-size: 13px;
-              span{
-              background: url(../assets/login.png);
-              width:18px;
-              height: 23px;
-              display: block;
-              margin: 0 4px 0 0;
-              } 
-           }
-           a:nth-of-type(1){
-             span{
-                background-position: 0 -276px;
-              }
-           }
-           a:nth-of-type(2){
-             span{
-                background-position: -24px -276px;
-                width: 20px;
-              }
-           }
-           a:hover {
-             color:orange;
-           }
-           a:nth-of-type(1):hover{
-             span{
-                background-position: 0 -303px;
-              }
-           }
-           a:nth-of-type(2):hover{
-             span{
-                background-position: -24px -303px;
-              }
-           }
-       }
-       div:nth-of-type(2){
-        margin: 10px 0 0 0;
-        color:gray;
+      }
+    }
+    // .logos{
+    //   margin:0 0 10px 0;
+    // }
+    .DynamicLogo{
+      width:285px;
+      height:277px;
+      margin:0 auto;
+      // background:yellow;
+      display:none;
+      .inputbox{
+        width:280px;
+        height:35px;
+        border:1px solid gray;
+        margin:20px 0 0 0;
+        display:flex;
+              justify-content:space-between;
+              background:#fff;
+              position: relative;
+        input{
+          width:90%;
+          height:100%;
+          border:0;
+          outline:none;
+        }
+        i{
+          display:block;
+          width:30px;
+          height:30px;
+          background:url(../assets/login.png) -108px -271px no-repeat;
+        }
+        span{
+          display:block;
+          width:30px;
+          height:30px;
+          background:url(../assets/login.png) -135px -271px no-repeat;
+        }
+        .div{
+          color:red;
+          font-size:12px;
+          position: absolute;
+          top:35px;
+        }
+      }
+      .err{
+        width:280px;
+        height:35px;
+        // border:1px solid gray;
+        margin:20px 0 0 0;
+        border:0;
+        position: relative;
+        input{
+            border:1px solid red;
+            height:100%;
+          width:40%;
+        }
+        span{
+          padding:6px 8px 6px 8px;
+        }
+        a{
+          text-decoration:none;
+          font-size:10px;
+
+        }
+        a:hover{
+          color:red;
+        }
+        .div{
+          color:red;
+          font-size:12px;
+          position: absolute;
+          top:35px;
+        }
+      }
+      .forget{
+        margin:20px 0 0 0;
+        span:nth-of-type(1){
+          float:left;
+          display:block;
+          width:13px;
+          height:13px;
+          background:blue;
+          color:#ccc;
+          font-size:4px;
+          line-height:20px;
+          font-weight:bold;
+          text-align:center;
+          cursor:pointer;
+          margin:3px 0 0 0;
+        }
+        span:nth-of-type(2){
+          font-size:12px;
+          padding:0 0 0 3px;
+        }
+      }
+      .loginbtn{
+        width:285px;
+        height:40px;
+        background:#ff8800;
+        text-align:center;
+        cursor:pointer;
+        margin:20px 0 0 0;
+        a{
+          text-decoration:none;
+          line-height:40px;
+          color:#fff;
+          font-weight:bold;
+
+        }
+      }
+      .loginbtn:hover{
+        background:#ff6000;
+      }
+    }
+
+
+
+
+    .Dynamic{
+      width:285px;
+      height:277px;
+      margin:0 auto;
+      // background:yellow;
+      display:none;
+      .inputbox{
+        width:280px;
+        height:35px;
+        margin:20px 0 0 0;
+        display:flex;
+              justify-content:space-between;
+              background:#fff;
+              position:relative;
+        input{
+          width:70%;
+          height:100%;
+          border:0;
+            margin:0 0 0 10px;
+          border:1px solid gray;
+          outline:none;
+        }
+        .div2{
+          color:red;
+          font-size:12px;
+          position:absolute;
+          top:35px;
+        }
+        
+      }
+      .box{
+        input{
+          margin:0;
+          width:56%;
+        }
+        span{
+          text-align:center;
+          display:block;
+          width:110px;
+          height:37px;
+          line-height:35px;
+          background:#37c;
+          border-radius:5px;
+          cursor:pointer;
+          color:#fff;
+          font-size:13px;
+        }
+      }
+      .err{
+        width:280px;
+        height:35px;
+        // border:1px solid gray;
+        margin:20px 0 0 0;
+        border:0;
+        position:relative;
+        input{
+            border:1px solid red;
+            height:100%;
+          width:40%;
+        }
+        .div2{
+          color:red;
+          font-size:12px;
+          position:absolute;
+          top:35px;
+        }
+        span{
+          padding:6px 8px 6px 8px;
+        }
+        a{
+          text-decoration:none;
+          font-size:10px;
+
+        }
+        a:hover{
+          color:red;
+        }
+      }
+      .forget{
+        margin:20px 0 0 0;
+        span:nth-of-type(1){
+          float:left;
+          display:block;
+          width:13px;
+          height:13px;
+          background:blue;
+          color:#ccc;
+          font-size:4px;
+          line-height:20px;
+          font-weight:bold;
+          text-align:center;
+          cursor:pointer;
+          margin:3px 0 0 0;
+        }
+        span:nth-of-type(2){
+          font-size:12px;
+          padding:0 0 0 3px;
+        }
+      }
+      .loginbtn{
+        width:285px;
+        height:40px;
+        background:#ff8800;
+        text-align:center;
+        cursor:pointer;
+        margin:20px 0 0 0;
+        a{
+          text-decoration:none;
+          line-height:40px;
+          color:#fff;
+          font-weight:bold;
+
+        }
+      }
+      .loginbtn:hover{
+        background:#ff6000;
+      }
+    }
+
+
+
+
+  }
+}
+.register_tip{
+  width:1000px;
+  height:15px;
+  margin:0 auto;
+  // background:red;
+  a{
+    float:right;
+    text-decoration:none;
+    font-size:14px;
+    i{
+      display:block;
+      width:15px;
+      height:15px;
+      background:url(../assets/login.png) 0 -430px no-repeat;
+      float:right;
+      margin:3px 0 0 6px;
+    }
+  }
+}
+.register_tip:hover{
+  a{
+    color:#ff6000;
+    i{
+      background:url(../assets/login.png) 0 -445px no-repeat;
+    }
+  }
+
+}
+.footer{
+  width:1000px;
+  margin:0 auto;
+    // background:red;
+    overflow:hidden;
+    text-align:center;
+    p:nth-of-type(1){
+        width:300px;
+        height:20px;
+        margin:0 auto;
+        // background:aqua;
+      a{
+        float:left;
+        text-decoration:none;
+        font-size:14px;
+        margin:0 0 0 40px;
+        font-size:15px;
+        color:#6e7179;
+        .ip_one{
+          display:block;
+          width:18px;
+          height:22px;
+          background:url(../assets/login.png) 0 -277px no-repeat;
+          float:left;
+          margin:0 6px 0 0 ;
+        }
+        .and_ld{
+          display:block;
+          width:18px;
+          height:22px;
+          background:url(../assets/login.png) -25px -278px no-repeat;
+          float:left;
+          margin:0 6px 0 0 ;
+        }
+      }
+      a:hover{
+        color:#ff8800;
+        .ip_one{
+                background:url(../assets/login.png) 0 -304px no-repeat;
+        }
+        .and_ld{
+                background:url(../assets/login.png) -25px -305px no-repeat;
+        }
+      }
+    }
+    p:nth-of-type(2){
+      overflow:hidden;
+      margin:20px 0 0 0;
+      a{
+        text-decoration:none;
+        color:#6e7179;
         font-size:12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-         a{
-           text-decoration: none;
-           color:gray;
-           margin: 0 5px 0 5px;
-         }
-         a:nth-of-type(3){
-          margin:  0 40px 0 5px;
-         }
-         a:hover{
-           color:orange;
-         }
-       }
-   }
+      }
+      a:hover{
+        color:#ff8800;
+      }
+      i{
+        color:#6e7179;
+      }
+      span{
+        font-size:14px;
+        margin:0 0 0 20px;
+      }
+    }
 }
 </style>
